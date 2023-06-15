@@ -1,0 +1,57 @@
+@startuml domain-model
+
+!define ZERO_TO_ONE 0..1
+!define ZERO_TO_MANY 0..N
+!define ONE_TO_ONE 1..1
+!define ONE_TO_TWO 1..2
+!define ONE_TO_MANY 1..N
+!define EMPTY ""
+
+!define compositionRelation(all, part, cardinality) all *--> part: cardinality
+
+!define associationRelation(client, server, cardinality) client --> server: cardinality
+
+!define aggregationRelation(whole, part, cardinality) whole o--> part: cardinality
+
+!define useRelation(user, used, cardinality) user ..> used: cardinality
+
+!define inheritanceRelation(child, parent, cardinality) child <|-- parent: cardinality
+
+enum Category {
+    + TEXT_BOOKS_EDUCATIONAL_MATERIAL
+    + OFFICE_SUPPLIES
+    + ELECTRONICS
+    + FURNITURE_AND_DECORATION
+    + CLOTHING
+    + LABORATORY_MATERIAL
+    + MUSICAL_INSTRUMENTS
+    + SPORTING_GOODS
+    + ARTS_HANDICRAFTS
+    + TOYS_GAMES
+}
+
+enum State {
+    + NEW
+    + SEMINEW
+    + USED
+    + LOW_QUALITY
+}
+
+enum TypeArticle {
+    + PUBLISHED
+    + PROPOSED
+}
+
+compositionRelation(Unimart, Publisher, ONE_TO_MANY)
+compositionRelation(Unimart, Article, ONE_TO_MANY)
+aggregationRelation(Publisher, Rating,  ZERO_TO_MANY)
+aggregationRelation(Publisher, Article, ZERO_TO_MANY)
+associationRelation(Rating, Article, EMPTY)
+compositionRelation(Article, Category, ONE_TO_TWO)
+compositionRelation(Article, State, ONE_TO_MANY)
+compositionRelation(Article, TypeArticle, ONE_TO_ONE)
+aggregationRelation(Publisher, Publication, ZERO_TO_MANY)
+aggregationRelation(Publication, Article, ZERO_TO_MANY)
+associationRelation(Publisher, Exchange, EMPTY)
+useRelation(Exchange, Rating, EMPTY)
+@enduml
