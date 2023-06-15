@@ -42,16 +42,18 @@ enum TypeArticle {
     + PROPOSED
 }
 
-compositionRelation(Unimart, Publisher, ONE_TO_MANY)
+compositionRelation(Unimart, User, ONE_TO_MANY)
 compositionRelation(Unimart, Article, ONE_TO_MANY)
-aggregationRelation(Publisher, Rating,  ZERO_TO_MANY)
-aggregationRelation(Publisher, Article, ZERO_TO_MANY)
+aggregationRelation(User, Rating,  ZERO_TO_MANY)
+aggregationRelation(User, Article, ZERO_TO_MANY)
+aggregationRelation(User, Publication, ZERO_TO_MANY)
+associationRelation(User, Exchange, EMPTY)
+useRelation(Exchange, Rating, EMPTY)
 associationRelation(Rating, Article, EMPTY)
 compositionRelation(Article, Category, ONE_TO_TWO)
-compositionRelation(Article, State, ONE_TO_MANY)
+compositionRelation(Article, State, ONE_TO_ONE)
 compositionRelation(Article, TypeArticle, ONE_TO_ONE)
-aggregationRelation(Publisher, Publication, ZERO_TO_MANY)
-aggregationRelation(Publication, Article, ZERO_TO_MANY)
-associationRelation(Publisher, Exchange, EMPTY)
-useRelation(Exchange, Rating, EMPTY)
+inheritanceRelation(Article, ProposedArticle, EMPTY)
+aggregationRelation(Publication, ProposedArticle, ZERO_TO_MANY)
+compositionRelation(Publication, Article, ONE_TO_ONE)
 @enduml
