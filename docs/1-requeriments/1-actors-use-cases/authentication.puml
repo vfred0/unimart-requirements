@@ -1,0 +1,8 @@
+@startuml authentication
+left to right direction
+actor User
+rectangle "Authentication" {
+    User -- (Login)    
+    User -- (Logout)      
+}
+@enduml 
