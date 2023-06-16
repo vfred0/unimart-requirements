@@ -1,0 +1,99 @@
+@startuml authentication
+state AUTHENTICATION
+state LOGIN
+state REGISTER
+state OPENED_FLIXXIC
+
+
+[*] --> AUTHENTICATION
+state register <<choice>>
+AUTHENTICATION --> register
+register -right-> LOGIN
+note on link
+<b>User requests to</b>
+* Login
+end note
+
+register -left-> REGISTER
+note on link
+<b>User requests to</b>
+* Register
+end note
+
+state REGISTER {
+    state R1 as " "
+    state RConditional <<choice>>
+    state R2 as " "
+
+    [*] --> R1
+
+    R1 --> R2
+    note on link
+    <b>System requires</b>
+    * Full name
+    * Email
+    * Username
+    * Date of birth    
+    * Password
+    end note
+
+    R2 --> RConditional
+    note on link
+    <b>User provides</b>
+    * Full name
+    * Email
+    * Username
+    * Date of birth
+    * Password
+    end note
+
+    
+    RConditional -[#red]-> R1
+    note on link
+    <b> Errors </b>
+    * Email already exists
+    * Username already exists          
+    end note
+
+    RConditional --> [*]    
+}
+
+
+state LOGIN {
+
+    state 1 as " "
+    state conditional <<choice>>
+    state 2 as " "
+
+    [*] --> 1
+
+    1 --> 2
+    note on link
+    <b>System requires</b>
+    * Username
+    * Password
+    end note
+
+    2 --> conditional
+    note on link
+    <b>User provides</b>
+    * Username
+    * Password
+    end note
+
+    conditional -[#red]-> 1
+    note on link
+    <b> Errors </b>
+    * Username does not exist
+    * Password is incorrect
+    end note              
+
+    conditional --> [*]
+}
+
+
+REGISTER --> LOGIN
+LOGIN --> OPENED_FLIXXIC
+OPENED_FLIXXIC --> [*]
+
+@enduml

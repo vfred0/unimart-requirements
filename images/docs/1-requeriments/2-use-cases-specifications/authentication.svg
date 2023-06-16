@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1501px" preserveAspectRatio="none" style="width:666px;height:1501px;background:#FFFFFF;" version="1.1" viewBox="0 0 666 1501" width="666px" zoomAndPan="magnify"><defs/><g><g id="AUTHENTICATION"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="7" y="361.9"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="150" y1="388.6999" y2="388.6999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="17" y="379.9059">AUTHENTICATION</text></g><g id="OPENED_FLIXXIC"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="385" y="1364.6"/><line style="stroke:#181818;stroke-width:0.5;" x1="385" x2="524" y1="1391.3999" y2="1391.3999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="395" y="1382.6059">OPENED_FLIXXIC</text></g><ellipse cx="78.5" cy="16" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="elem_register"><polygon fill="#F1F1F1" points="78.5,1038.7,90.5,1050.7,78.5,1062.7,66.5,1050.7,78.5,1038.7" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="454.5" cy="1485.6" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="455" cy="1486.1" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><path d="M229.68,87 L615.33,87 A12.5,12.5 0 0 1 627.83,99.5 L627.83,113.7999 L217.18,113.7999 L217.18,99.5 A12.5,12.5 0 0 1 229.68,87 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="599.7999" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="410.65" x="217.18" y="87"/><line style="stroke:#181818;stroke-width:0.5;" x1="217.18" x2="627.83" y1="113.7999" y2="113.7999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="387.005" y="105.0059">REGISTER</text><g id="REGISTER.R1"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="298.83" y="181.7999"/><line style="stroke:#181818;stroke-width:0.5;" x1="298.83" x2="348.83" y1="208.5999" y2="208.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="321.83" y="199.8059"> </text></g><g id="elem_RConditional"><polygon fill="#F1F1F1" points="327.83,595.7999,339.83,607.7999,327.83,619.7999,315.83,607.7999,327.83,595.7999" style="stroke:#181818;stroke-width:0.5;"/></g><g id="REGISTER.R2"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="229.83" y="388.7999"/><line style="stroke:#181818;stroke-width:0.5;" x1="229.83" x2="279.83" y1="415.5999" y2="415.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="252.83" y="406.8059"> </text></g><ellipse cx="323.83" cy="134.7999" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="327.83" cy="666.7999" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="328.33" cy="667.2999" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[483e91ba72c275ad2567615647899ae2]
+link *start*REGISTER to R1--><g id="link_*start*REGISTER_R1"><path d="M323.83,145.2399 C323.83,153.0499 323.83,164.5899 323.83,175.5099 " fill="none" id="*start*REGISTER-to-R1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="323.83,180.4799,327.83,171.4799,323.83,175.4799,319.83,171.4799,323.83,180.4799" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b7be0192252c14f6eacc4f5d1427df6a]
+link R1 to R2--><g id="link_R1_R2"><path d="M298.38,215.3099 C281.92,221.6299 261.78,232.4799 251.83,249.7999 C228.18,290.9799 236.82,348.1999 245.58,382.7499 " fill="none" id="R1-to-R2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="247.1,387.5099,248.6835,377.7892,245.8303,382.6738,240.9457,379.8207,247.1,387.5099" style="stroke:#181818;stroke-width:1.0;"/><path d="M256.83,254.7999 L256.83,357.7999 L378.83,357.7999 L378.83,264.7999 L368.83,254.7999 L256.83,254.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M368.83,254.7999 L368.83,264.7999 L378.83,264.7999 L368.83,254.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="262.83" y="271.8769">System requires</text><ellipse cx="268.33" cy="283.5" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="274.83" y="287.477">Full name</text><ellipse cx="268.33" cy="299.1" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="274.83" y="303.077">Email</text><ellipse cx="268.33" cy="314.7" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="274.83" y="318.677">Username</text><ellipse cx="268.33" cy="330.3" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="274.83" y="334.277">Date of birth</text><ellipse cx="268.33" cy="345.9" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="274.83" y="349.877">Password</text></g><!--MD5=[faa6cc2d2dde78afbced5b331a5eb499]
+link R2 to RConditional--><g id="link_R2_RConditional"><path d="M249.6,439.0799 C243.67,473.2499 238.22,535.9999 266.83,577.7999 C277.26,593.0399 297.95,600.4999 312.32,603.9899 " fill="none" id="R2-to-RConditional" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="317.05,605.2599,309.1157,599.4249,312.1661,604.1889,307.4021,607.2392,317.05,605.2599" style="stroke:#181818;stroke-width:1.0;"/><path d="M271.83,469.7999 L271.83,572.7999 L378.83,572.7999 L378.83,479.7999 L368.83,469.7999 L271.83,469.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M368.83,469.7999 L368.83,479.7999 L378.83,479.7999 L368.83,469.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="86" x="277.83" y="486.8769">User provides</text><ellipse cx="283.33" cy="498.5" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="289.83" y="502.477">Full name</text><ellipse cx="283.33" cy="514.1" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="289.83" y="518.077">Email</text><ellipse cx="283.33" cy="529.7" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="289.83" y="533.677">Username</text><ellipse cx="283.33" cy="545.3" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="289.83" y="549.277">Date of birth</text><ellipse cx="283.33" cy="560.9" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="289.83" y="564.877">Password</text></g><!--MD5=[01e3a7e1e8d196c9ad8fd2a97246c7ec]
+link RConditional to R1--><g id="link_RConditional_R1"><path d="M337.44,604.9999 C350.58,601.9699 373.7,594.4499 383.83,577.7999 C459.59,453.2499 451.15,379.0999 383.83,249.7999 C377.46,237.5699 365.73,228.1699 354.32,221.3899 " fill="none" id="RConditional-to-R1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="350.12,218.4599,356.0142,226.3503,354.4813,220.9051,359.9265,219.3722,350.12,218.4599" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M441.83,385.7999 L441.83,441.7999 L618.83,441.7999 L618.83,395.7999 L608.83,385.7999 L441.83,385.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M608.83,385.7999 L608.83,395.7999 L618.83,395.7999 L608.83,385.7999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="39" x="451.83" y="402.8769">Errors</text><ellipse cx="453.33" cy="414.5" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="459.83" y="418.477">Email already exists</text><ellipse cx="453.33" cy="430.1" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="459.83" y="434.077">Username already exists</text></g><!--MD5=[c23c56142e5243f5322975124f291479]
+link RConditional to *end*REGISTER--><g id="link_RConditional_*end*REGISTER"><path d="M327.83,620.3299 C327.83,629.0899 327.83,641.1999 327.83,650.7199 " fill="none" id="RConditional-to-*end*REGISTER" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="327.83,655.5399,331.83,646.5399,327.83,650.5399,323.83,646.5399,327.83,655.5399" style="stroke:#181818;stroke-width:1.0;"/></g><path d="M269,797.8 L640,797.8 A12.5,12.5 0 0 1 652.5,810.3 L652.5,824.5999 L256.5,824.5999 L256.5,810.3 A12.5,12.5 0 0 1 269,797.8 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="505.7999" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="396" x="256.5" y="797.8"/><line style="stroke:#181818;stroke-width:0.5;" x1="256.5" x2="652.5" y1="824.5999" y2="824.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="432.5" y="815.8059">LOGIN</text><g id="LOGIN.1"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="337.5" y="892.5999"/><line style="stroke:#181818;stroke-width:0.5;" x1="337.5" x2="387.5" y1="919.3999" y2="919.3999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="360.5" y="910.6059"> </text></g><g id="elem_conditional"><polygon fill="#F1F1F1" points="366.5,1212.5999,378.5,1224.5999,366.5,1236.5999,354.5,1224.5999,366.5,1212.5999" style="stroke:#181818;stroke-width:0.5;"/></g><g id="LOGIN.2"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="268.5" y="1052.5999"/><line style="stroke:#181818;stroke-width:0.5;" x1="268.5" x2="318.5" y1="1079.3999" y2="1079.3999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="291.5" y="1070.6059"> </text></g><ellipse cx="362.5" cy="845.5999" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="366.5" cy="1283.5999" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="367" cy="1284.0999" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[2eb380738061f5df672d71745b6aee88]
+link *start*LOGIN to 1--><g id="link_*start*LOGIN_1"><path d="M362.5,856.0399 C362.5,863.8499 362.5,875.3899 362.5,886.3099 " fill="none" id="*start*LOGIN-to-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="362.5,891.2799,366.5,882.2799,362.5,886.2799,358.5,882.2799,362.5,891.2799" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0ba0d8a0fd0e641c23f69743a446dfe6]
+link 1 to 2--><g id="link_1_2"><path d="M337.05,926.1099 C320.59,932.4299 300.45,943.2799 290.5,960.5999 C275.54,986.6399 279.02,1021.6799 284.54,1046.4099 " fill="none" id="1-to-2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="285.89,1051.1499,287.7018,1041.4691,284.7345,1046.2853,279.9183,1043.318,285.89,1051.1499" style="stroke:#181818;stroke-width:1.0;"/><path d="M295.5,965.5999 L295.5,1021.5999 L417.5,1021.5999 L417.5,975.5999 L407.5,965.5999 L295.5,965.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M407.5,965.5999 L407.5,975.5999 L417.5,975.5999 L407.5,965.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="301.5" y="982.6769">System requires</text><ellipse cx="307" cy="994.3" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="313.5" y="998.277">Username</text><ellipse cx="307" cy="1009.9" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="313.5" y="1013.877">Password</text></g><!--MD5=[67cc5fa11e614c2e37a5a979af3caf7f]
+link 2 to conditional--><g id="link_2_conditional"><path d="M289.56,1102.7299 C286.8,1127.9899 286.46,1167.6499 305.5,1194.5999 C316.16,1209.6799 336.79,1217.1799 351.09,1220.7199 " fill="none" id="2-to-conditional" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="355.78,1222.0099,347.8821,1216.1258,350.9028,1220.9086,346.12,1223.9293,355.78,1222.0099" style="stroke:#181818;stroke-width:1.0;"/><path d="M310.5,1133.5999 L310.5,1189.5999 L417.5,1189.5999 L417.5,1143.5999 L407.5,1133.5999 L310.5,1133.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M407.5,1133.5999 L407.5,1143.5999 L417.5,1143.5999 L407.5,1133.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="86" x="316.5" y="1150.6769">User provides</text><ellipse cx="322" cy="1162.3" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="328.5" y="1166.277">Username</text><ellipse cx="322" cy="1177.9" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="328.5" y="1181.877">Password</text></g><!--MD5=[5bea8c8e80e703b94ef9f48923061f5a]
+link conditional to 1--><g id="link_conditional_1"><path d="M376.11,1221.7999 C389.25,1218.7699 412.37,1211.2499 422.5,1194.5999 C476.55,1105.7499 470.53,1052.8499 422.5,960.5999 C416.13,948.3699 404.4,938.9699 392.99,932.1899 " fill="none" id="conditional-to-1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="388.79,929.2599,394.6842,937.1503,393.1513,931.7051,398.5965,930.1722,388.79,929.2599" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M465.5,1049.5999 L465.5,1105.5999 L643.5,1105.5999 L643.5,1059.5999 L633.5,1049.5999 L465.5,1049.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M633.5,1049.5999 L633.5,1059.5999 L643.5,1059.5999 L633.5,1049.5999 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="39" x="475.5" y="1066.6769">Errors</text><ellipse cx="477" cy="1078.3" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="483.5" y="1082.277">Username does not exist</text><ellipse cx="477" cy="1093.9" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="483.5" y="1097.877">Password is incorrect</text></g><!--MD5=[bce1b80964191b315637d5cd752e454d]
+link conditional to *end*LOGIN--><g id="link_conditional_*end*LOGIN"><path d="M366.5,1237.1299 C366.5,1245.8899 366.5,1257.9999 366.5,1267.5199 " fill="none" id="conditional-to-*end*LOGIN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="366.5,1272.3399,370.5,1263.3399,366.5,1267.3399,362.5,1263.3399,366.5,1272.3399" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1e3bdf202a25adfebfa2664c5c686ea2]
+link *start to AUTHENTICATION--><g id="link_*start_AUTHENTICATION"><path d="M78.5,26.49 C78.5,72.98 78.5,277.62 78.5,355.59 " fill="none" id="*start-to-AUTHENTICATION" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="78.5,360.42,82.5,351.42,78.5,355.42,74.5,351.42,78.5,360.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ddd52781d423314eca689c8f764f609b]
+link AUTHENTICATION to register--><g id="link_AUTHENTICATION_register"><path d="M78.5,412.24 C78.5,518.59 78.5,941.24 78.5,1032.34 " fill="none" id="AUTHENTICATION-to-register" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="78.5,1037.32,82.5,1028.32,78.5,1032.32,74.5,1028.32,78.5,1037.32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9d17b196a3d6067f9a80670081597c44]
+link register to LOGIN--><g id="link_register_LOGIN"><path d="M91.01,1050.7 C117.53,1050.7 182.57,1050.7 250.42,1050.7 " fill="none" id="register-to-LOGIN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="255.14,1050.7,246.14,1046.7,250.14,1050.7,246.14,1054.7,255.14,1050.7" style="stroke:#181818;stroke-width:1.0;"/><path d="M112.5,1001.7 L112.5,1042.7 L234.5,1042.7 L234.5,1011.7 L224.5,1001.7 L112.5,1001.7 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M224.5,1001.7 L224.5,1011.7 L234.5,1011.7 L224.5,1001.7 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="118.5" y="1018.777">User requests to</text><ellipse cx="124" cy="1030.4" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="130.5" y="1034.377">Login</text></g><!--MD5=[2a536a323ec7528f847438c1f859169c]
+reverse link REGISTER to register--><g id="link_REGISTER_register"><path d="M264.51,691.85 C184.8,845.2 101.05,1006.32 82.35,1042.3 " fill="none" id="REGISTER-backto-register" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="267.11,687.85,259.3965,693.9739,264.7942,692.2814,266.4867,697.6791,267.11,687.85" style="stroke:#181818;stroke-width:1.0;"/><path d="M255.5,721.8 L255.5,762.8 L377.5,762.8 L377.5,731.8 L367.5,721.8 L255.5,721.8 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M367.5,721.8 L367.5,731.8 L377.5,731.8 L367.5,721.8 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="261.5" y="738.877">User requests to</text><ellipse cx="267" cy="750.5" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="273.5" y="754.477">Register</text></g><!--MD5=[1a2988b26bd4e4765c8b24146007754d]
+link REGISTER to LOGIN--><g id="link_REGISTER_LOGIN"><path d="M436.96,686.85 C438.64,721.74 440.35,757.11 442.01,791.39 " fill="none" id="REGISTER-to-LOGIN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="442.3,796.33,445.8574,787.146,442.0567,791.3359,437.8669,787.5353,442.3,796.33" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d3147b0a808e4e0f9c226698a6019cc1]
+link LOGIN to OPENED_FLIXXIC--><g id="link_LOGIN_OPENED_FLIXXIC"><path d="M454.5,1304.02 C454.5,1325.08 454.5,1343.8 454.5,1358.23 " fill="none" id="LOGIN-to-OPENED_FLIXXIC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="454.5,1363.15,458.5,1354.15,454.5,1358.15,450.5,1354.15,454.5,1363.15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[92fd28014b49bc22b656ba3c1eb93f4c]
+link OPENED_FLIXXIC to *end--><g id="link_OPENED_FLIXXIC_*end"><path d="M454.5,1414.81 C454.5,1432.13 454.5,1454.91 454.5,1469.65 " fill="none" id="OPENED_FLIXXIC-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="454.5,1474.44,458.5,1465.44,454.5,1469.44,450.5,1465.44,454.5,1474.44" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a5840254c1cc9c371f68568f7276d8c1]
+@startuml authentication
+state AUTHENTICATION
+state LOGIN
+state REGISTER
+state OPENED_FLIXXIC
+
+
+[*] - -> AUTHENTICATION
+state register <<choice>>
+AUTHENTICATION - -> register
+register -right-> LOGIN
+note on link
+<b>User requests to</b>
+* Login
+end note
+
+register -left-> REGISTER
+note on link
+<b>User requests to</b>
+* Register
+end note
+
+state REGISTER {
+    state R1 as " "
+    state RConditional <<choice>>
+    state R2 as " "
+
+    [*] - -> R1
+
+    R1 - -> R2
+    note on link
+    <b>System requires</b>
+    * Full name
+    * Email
+    * Username
+    * Date of birth    
+    * Password
+    end note
+
+    R2 - -> RConditional
+    note on link
+    <b>User provides</b>
+    * Full name
+    * Email
+    * Username
+    * Date of birth
+    * Password
+    end note
+
+    
+    RConditional -[#red]-> R1
+    note on link
+    <b> Errors </b>
+    * Email already exists
+    * Username already exists          
+    end note
+
+    RConditional - -> [*]    
+}
+
+
+state LOGIN {
+
+    state 1 as " "
+    state conditional <<choice>>
+    state 2 as " "
+
+    [*] - -> 1
+
+    1 - -> 2
+    note on link
+    <b>System requires</b>
+    * Username
+    * Password
+    end note
+
+    2 - -> conditional
+    note on link
+    <b>User provides</b>
+    * Username
+    * Password
+    end note
+
+    conditional -[#red]-> 1
+    note on link
+    <b> Errors </b>
+    * Username does not exist
+    * Password is incorrect
+    end note              
+
+    conditional - -> [*]
+}
+
+
+REGISTER - -> LOGIN
+LOGIN - -> OPENED_FLIXXIC
+OPENED_FLIXXIC - -> [*]
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
