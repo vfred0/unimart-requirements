@@ -85,10 +85,13 @@ Los usuarios podrán realizar las siguientes interacciones:
 | --------- | --------- |
 | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/authentication.svg?raw=true) | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/profile-management.svg?raw=true) |
 
-| Ver detalles, buscar y filtrar | Calificar |
+| Ver detalles, buscar y filtrar | Calificaciones |
 | --------- | --------- | 
 | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/content-interaction/view-search-filter.svg?raw=true) | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/content-interaction/ratings.svg?raw=true) |
 
+| Intercambios |
+| --------- |
+| ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/content-interaction/exchanges.svg?raw=true) |
 
 ### Contexto de casos de uso
 
