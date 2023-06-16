@@ -6,9 +6,7 @@
 - [Proceso unificado de desarrollo (RUP)](#proceso-unificado-de-desarrollo-rup)
 - [Modelo del dominio](#modelo-del-dominio)
 - [Disciplina de requisitos](#disciplina-de-requisitos)
-  - [Actores y casos de uso](#actores-y-casos-de-uso)
-    - [Casos de uso para los administradores](#casos-de-uso-para-los-administradores)    
-    - [Casos de uso para los usuarios](#casos-de-uso-para-los-usuarios)
+  - [Actores y casos de uso](#actores-y-casos-de-uso)           
     - [Contexto de casos de uso](#contexto-de-casos-de-uso)
   - [Especificar casos de uso](#especificar-casos-de-uso)
   - [Prototipar la interfaz de usuario](#prototipar-la-interfaz-de-usuario)
@@ -74,6 +72,58 @@ Asimismo nos permite tener un vocabulario común entre los desarrolladores, clie
 Para el caso de Unimart, el modelo del dominio se ve de la siguiente manera:
 ![Modelo de dominio](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/0-domain-model/domain-model.svg?raw=true)
 
+# Disciplina de requisitos
+Es el flujo de trabajo (realización de casos de uso que incluye roles, actividades y artefactos) cuyo principal propósito es dirigir el desarrollo hacia el sistema correcto describiendo los requisitos del sistema de tal forma que se alcance el acuerdo entre el cliente, usuarios y desarrolladores sobre lo que el sistema debería hacer. (Master EscuelaIT)
+
+## Actores y casos de uso
+Los actores son los usuarios que interactúan con el sistema y los casos de uso son las acciones que pueden realizar los actores.
+
+Para el caso de Unimart, los actores serán los usuarios.
+Los usuarios podrán realizar las siguientes interacciones:
+
+| Autenticación | Gestión del perfil | 
+| --------- | --------- |
+| ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/authentication.svg?raw=true) | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/profile-management.svg?raw=true) |
+
+| Ver detalles, buscar y filtrar | Calificar |
+| --------- | --------- | 
+| ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/content-interaction/view-search-filter.svg?raw=true) | ![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/content-interaction/ratings.svg?raw=true) |
+
+
+### Contexto de casos de uso
+
+El siguiente diagrama de contexto de casos de uso representa el flujo de interacción entre los diferentes casos de uso del sistema.
+
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/1-actors-use-cases/use-cases-context.svg?raw=true)
+
+## Especificar casos de uso
+Detalles de los casos de uso relacionados con la interacción que hace el usuario con el sistema y con la autenticación.
+
+Autenticación
+
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/2-use-cases-specifications/authentication.svg?raw=true)
+
+Interacción con el contenido
+
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/2-use-cases-specifications/content-interaction.svg?raw=true)
+
+Gestión del perfil
+
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/1-requeriments/2-use-cases-specifications/profile-management.svg?raw=true)
+
+## Prototipar la interfaz de usuario
+Los prototipos se encuentran realizados con figma y se pueden ver en los siguientes enlaces:
+- Prototipo Desktop:  https://is.gd/zOKUJ5
+- Prototipo Mobile: https://is.gd/SptDMP
+
+## Disciplina de análisis
+### Analizar la arquitectura
+La estructura de la aplicación será por modelos, vistas y controladores. 
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/2-analysis/architecture-analysis.svg?raw=true)
+
+## Disciplina de diseño
+### Diseñar la arquitectura 
+![](https://github.com/vfred0/unimart-requirements/blob/main/images/docs/3-design/architecture.svg?raw=true)
 
 # Referencias
 Para llevar a cabo este proyecto, he utilizado como referencia los siguientes proyectos y agradezco a los autores por compartirlos:
