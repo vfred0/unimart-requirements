@@ -1,0 +1,18 @@
+@startuml view-search-filter
+left to right direction
+skinparam packageStyle rectangle
+actor User
+
+rectangle "View" {   
+    User -- (View details of article)
+}
+
+rectangle "Search" {   
+    User -- (Search article by title)    
+}
+
+rectangle "Filter" {   
+    User -- (Filter by category)
+    User -- (Filter by state)    
+}
+@enduml

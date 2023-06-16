@@ -1,0 +1,8 @@
+@startuml exchange
+left to right direction
+actor User
+    rectangle "Exchange" {        
+        User -- (Add rating)
+        User -- (Discard exchange)
+    }
+@enduml
