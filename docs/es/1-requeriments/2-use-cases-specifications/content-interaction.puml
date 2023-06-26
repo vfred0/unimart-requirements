@@ -1,0 +1,131 @@
+@startuml content-interaction
+[*] --> INTERACCION_CONTENIDO
+
+state FILTRAR_ARTICULOS {
+    state FAS1 as " "    
+    state FAS2 as " "
+    [*] --> FAS1
+    FAS1 --> FAS2    
+    note on link
+        <b> El sistema permite:</b>
+        * Filtrar artículos por categoría
+        * Filtrar artículos por estado
+    end note
+    FAS2 --> [*]
+}
+
+state BUSCAR_ARTICULO {
+    state S1 as " "    
+    state S2 as " "
+    [*] --> S1
+    S1 --> S2    
+    note on link
+        <b> El sistema permite:</b>
+        * Buscar artículos por título
+    end note
+    S2 --> [*]
+}
+
+state VER_ARTICULO {
+    state VAS1 as " "
+    state VAS2 as " "
+    state VAS3 as " "
+    state VAS4 as " "
+    [*] --> VAS1
+    VAS1 --> VAS2 
+
+    state checkPublications <<choice>>           
+    state addProposedOrNot <<choice>>
+    note on link
+        <b> El sistema muestra:</b>
+        * Ver detalles del artículo
+            * título
+            * descripción
+            * fecha de publicación
+            * cantidad de propuestas
+            * publicador
+            * galería
+            * proponer artículo
+    end note
+    VAS2 --> addProposedOrNot
+    note on link
+        <b> El sistema permite:</b>
+        * Proponer artículo
+    end note
+
+    addProposedOrNot --> VAS3
+    
+    VAS3 --> VAS4    
+    note on link
+        <b> El sistema permite:</b>
+        * Seleccionar un artículo
+         publicado para proponer
+    end note 
+
+    VAS4 --> checkPublications    
+    checkPublications -[#red]-> VAS3
+    note on link
+        <b> El sistema requiere:</b>
+        * Tener un artículo
+         publicado para proponer
+    end note 
+    checkPublications --> [*]    
+
+    addProposedOrNot --> [*]
+}
+
+state INTERCAMBIAR_ARTICULO {
+    state EAS1 as " "    
+    state EAS2 as " "
+    state EAS3 as " "    
+    state EAS4 as " "            
+    [*] --> EAS1
+    
+    state ratingOrDiscard <<choice>>
+
+    EAS1 --> EAS2
+    note on link
+        <b> El sistema muestra:</b>
+        * Listado de intercambios 
+            aceptados
+        * Calificar intercambio
+        * Descartar intercambio        
+    end note
+      
+    EAS2 --> ratingOrDiscard
+    ratingOrDiscard --> EAS4
+    note on link
+        <b> El sistema permite:</b>
+        * Calificar intercambio
+            * Puntuación del 1 a 5
+            * Comentario            
+    end note
+
+    ratingOrDiscard --> EAS3
+    note on link
+        <b> El sistema permite:</b>
+        * Descartar intercambio
+    end note
+
+    EAS3 --> [*]    
+    EAS4 --> [*]    
+
+}
+
+INTERACCION_CONTENIDO --> FILTRAR_ARTICULOS
+INTERACCION_CONTENIDO --> BUSCAR_ARTICULO
+INTERACCION_CONTENIDO --> INTERCAMBIAR_ARTICULO
+
+state union <<choice>> 
+
+FILTRAR_ARTICULOS --> union
+BUSCAR_ARTICULO --> union
+union --> VER_ARTICULO
+
+state finished <<choice>>
+INTERCAMBIAR_ARTICULO --> finished
+VER_ARTICULO --> finished
+finished --> [*]
+finished --> INTERACCION_CONTENIDO
+
+@enduml

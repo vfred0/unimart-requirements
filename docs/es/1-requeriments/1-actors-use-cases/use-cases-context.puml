@@ -1,0 +1,33 @@
+@startuml use-cases-context
+
+[*] --> AUTENTICACION
+
+AUTENTICACION --> UNIMART_ABIERTO: Inciar Sesión
+UNIMART_ABIERTO -right-> INTERACCION_CONTENIDO
+UNIMART_ABIERTO -left-> GESTION_PERFIL
+
+INTERACCION_CONTENIDO --> INTERACCION_CONTENIDO
+note on link
+  * Ver artículos
+  * Publicar artículos
+  * Buscar y filtrar artículos
+  * Proponer artículos
+  * Aceptar artículos
+  * Calificar artículos  
+end note
+
+GESTION_PERFIL --> GESTION_PERFIL
+note on link
+  * Editar perfil
+end note
+
+state logout <<choice>>
+
+
+INTERACCION_CONTENIDO --> logout: Cerrar sesión
+GESTION_PERFIL --> logout: Cerrar sesión
+
+UNIMART_ABIERTO --> logout: Cerrar sesión
+logout --> [*]: Cerrar sesión
+logout -left-> UNIMART_ABIERTO: Iniciar sesión
+@enduml

@@ -1,0 +1,8 @@
+@startuml publications
+left to right direction
+actor Usuario
+rectangle "Publicaciones" {        
+    Usuario --> (Mostrar artículos publicados)
+    Usuario --> (Mostrar artículos propuestos)
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml exchanges
+left to right direction
+actor Usuario
+
+rectangle Intercambios {                
+    Usuario --> (Descartar intercambio)
+}
+@enduml

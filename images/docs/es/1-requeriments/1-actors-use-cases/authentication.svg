@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="163px" preserveAspectRatio="none" style="width:275px;height:163px;background:#FFFFFF;" version="1.1" viewBox="0 0 275 163" width="275px" zoomAndPan="magnify"><defs/><g><!--MD5=[f462d6d8d882aca61780c800787fbd0c]
+cluster Autenticación--><g id="cluster_Autenticación"><rect fill="none" height="150" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="170.58" x="99" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="136.29" y="22.0059">Autenticación</text></g><g id="elem_Iniciar sesión"><ellipse cx="184.2899" cy="58.002" fill="#F1F1F1" rx="68.2599" ry="16.052" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="139.7899" y="61.755">Iniciar sesión</text></g><g id="elem_Cerrar sesión"><ellipse cx="184.2918" cy="124.9984" fill="#F1F1F1" rx="69.2918" ry="16.2584" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="138.2918" y="128.7513">Cerrar sesión</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="30.5" cy="62.1" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M30.5,70.1 L30.5,97.1 M17.5,78.1 L43.5,78.1 M30.5,97.1 L17.5,112.1 M30.5,97.1 L43.5,112.1 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="6" y="126.6059">Usuario</text></g><!--MD5=[ba767b78cf9b1f3584caaab1f812d059]
+link Usuario to Iniciar sesión--><g id="link_Usuario_Iniciar sesión"><path d="M55.22,86.69 C74.67,82.33 103,75.98 128.07,70.37 " fill="none" id="Usuario-to-Iniciar sesión" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="132.69,69.11,123.0312,67.1845,127.8121,70.2082,124.7884,74.9891,132.69,69.11" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e6b9e4d4d9b589d60e31a3c6bff110fc]
+link Usuario to Cerrar sesión--><g id="link_Usuario_Cerrar sesión"><path d="M55.22,97.16 C74.21,101.28 101.64,107.25 126.25,112.6 " fill="none" id="Usuario-to-Cerrar sesión" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="131.11,113.87,123.1595,108.0571,126.2231,112.8126,121.4676,115.8762,131.11,113.87" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f9c921a584c8a8b505bd8ab652614d75]
+@startuml authentication
+left to right direction
+actor Usuario
+
+rectangle Autenticación {
+    Usuario - -> (Iniciar sesión)    
+    Usuario - -> (Cerrar sesión)
+}
+@enduml 
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

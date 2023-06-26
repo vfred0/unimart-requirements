@@ -1,0 +1,9 @@
+@startuml authentication
+left to right direction
+actor Usuario
+
+rectangle Autenticación {
+    Usuario --> (Iniciar sesión)    
+    Usuario --> (Cerrar sesión)
+}
+@enduml 

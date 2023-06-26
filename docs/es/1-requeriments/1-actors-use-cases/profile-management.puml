@@ -1,0 +1,9 @@
+@startuml profile-management
+left to right direction
+actor Usuario
+
+rectangle "Gestion del perfil" {       
+    Usuario --> (Ver perfil)
+    Usuario --> (Editar perfil)
+}
+@enduml

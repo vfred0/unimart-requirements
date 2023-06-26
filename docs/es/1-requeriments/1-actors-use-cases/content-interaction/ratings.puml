@@ -1,0 +1,9 @@
+@startuml ratings
+left to right direction
+actor Usuario
+rectangle "Calificaciones" {        
+    Usuario --> (Ver calificaciones)
+    Usuario --> (Añadir calificación)
+    Usuario --> (Filtrar calificaciones por puntaje)
+}
+@enduml

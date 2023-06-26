@@ -1,0 +1,47 @@
+@startuml authentication
+state AUTENTICACION
+state INCIAR_SESION
+state UNIMART_ABIERTO
+
+[*] --> AUTENTICACION
+AUTENTICACION --> INCIAR_SESION
+note on link
+<b>Usuario solicita:</b>
+* Inicar sesión
+end note
+
+state INCIAR_SESION {
+
+    state 1 as " "
+    state conditional <<choice>>
+    state 2 as " "
+
+    [*] --> 1
+
+    1 --> 2
+    note on link
+    <b>El sistema solicita:</b>
+    * Nombre de usuario
+    * Contraseña
+    end note
+
+    2 --> conditional
+    note on link
+    <b>Usuario ingresa:</b>
+    * Nombre de usuario
+    * Contraseña
+    end note
+
+    conditional -[#red]-> 1
+    note on link
+    <b>El sistema muestra error:</b>
+    * Nombre de usuario es incorrecto
+    * Contraseña es incorrecta
+    end note                  
+
+    conditional --> [*]
+}
+
+INCIAR_SESION --> UNIMART_ABIERTO
+UNIMART_ABIERTO --> [*]
+@enduml

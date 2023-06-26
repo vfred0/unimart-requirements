@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="195px" preserveAspectRatio="none" style="width:354px;height:195px;background:#FFFFFF;" version="1.1" viewBox="0 0 354 195" width="354px" zoomAndPan="magnify"><defs/><g><!--MD5=[05b32fe036711cf56e932e94e7cfe4a2]
+cluster Publicaciones--><g id="cluster_Publicaciones"><rect fill="none" height="182" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="249.4" x="99" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="175.2" y="22.0059">Publicaciones</text></g><g id="elem_Mostrar artículos publicados"><ellipse cx="223.6975" cy="65.9955" fill="#F1F1F1" rx="107.3275" ry="23.8655" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="134.1975" y="68.6015">Mostrar artículos publicados</text></g><g id="elem_Mostrar artículos propuestos"><ellipse cx="223.7023" cy="149.0005" fill="#F1F1F1" rx="108.7023" ry="24.1405" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="132.7023" y="151.6064">Mostrar artículos propuestos</text></g><!--MD5=[128f0757cf0ea77f14e95a88885fd9f7]
+entity Usuario--><g id="elem_Usuario"><ellipse cx="30.5" cy="78.1" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M30.5,86.1 L30.5,113.1 M17.5,94.1 L43.5,94.1 M30.5,113.1 L17.5,128.1 M30.5,113.1 L43.5,128.1 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="6" y="142.6059">Usuario</text></g><!--MD5=[a71d91549008ad0edbe8aa7828931382]
+link Usuario to Mostrar artículos publicados--><g id="link_Usuario_Mostrar artículos publicados"><path d="M55.33,102.77 C76.72,98.07 109.41,90.89 140.25,84.11 " fill="none" id="Usuario-to-Mostrar artículos publicados" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="144.98,82.85,135.3321,80.8707,140.0961,83.921,137.0457,88.685,144.98,82.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bfd27cffaf572302436e72656ef31d8d]
+link Usuario to Mostrar artículos propuestos--><g id="link_Usuario_Mostrar artículos propuestos"><path d="M55.33,113.11 C76.35,117.62 108.27,124.46 138.62,130.97 " fill="none" id="Usuario-to-Mostrar artículos propuestos" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="143.26,132.18,135.2933,126.3894,138.3702,131.1363,133.6233,134.2131,143.26,132.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[642bd5ad3b179d7256bddaf8c1fa7795]
+@startuml publications
+left to right direction
+actor Usuario
+rectangle "Publicaciones" {        
+    Usuario - -> (Mostrar artículos publicados)
+    Usuario - -> (Mostrar artículos propuestos)
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

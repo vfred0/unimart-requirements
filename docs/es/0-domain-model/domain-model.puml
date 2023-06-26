@@ -1,0 +1,59 @@
+@startuml domain-model
+!define ZERO_TO_ONE 0..1
+!define ZERO_TO_MANY 0..N
+!define ONE_TO_ONE 1..1
+!define ONE_TO_TWO 1..2
+!define ONE_TO_MANY 1..N
+!define EMPTY ""
+
+!define compositionRelation(all, part, cardinality) all *--> part: cardinality
+
+!define associationRelation(client, server, cardinality) client --> server: cardinality
+
+!define aggregationRelation(whole, part, cardinality) whole o--> part: cardinality
+
+!define useRelation(user, used, cardinality) user ..> used: cardinality
+
+!define inheritanceRelation(child, parent, cardinality) child <|-- parent: cardinality
+
+enum Categoría {
+    + LIBROS_TEXTO_MATERIAL_EDUCATIVO
+    + MATERIAL_DE_OFICINA
+    + ELECTRÓNICA
+    + MOBILIARIO_Y_DECORACIÓN
+    + INDUMENTARIA
+    + MATERIAL_DE_LABORATORIO
+    + INSTRUMENTOS_MUSICALES
+    + ARTÍCULOS_DEPORTIVOS
+    + ARTES_MANUALES
+    + JUEGOS_JUGUETES
+}
+
+enum Estado {
+    + NUEVO
+    + SEMI_NUEVO
+    + USADO
+    + BAJA_CALIDAD
+}
+
+enum TipoArtículo {
+    + PUBLICADO
+    + PROPUESTO
+}
+
+compositionRelation(Unimart, Usuario, ONE_TO_MANY)
+compositionRelation(Unimart, Artículo, ONE_TO_MANY)
+aggregationRelation(Usuario, Calificación,  ZERO_TO_MANY)
+aggregationRelation(Usuario, Artículo, ZERO_TO_MANY)
+aggregationRelation(Usuario, Publicación, ZERO_TO_MANY)
+aggregationRelation(Usuario, ArtículoPropuesto, ONE_TO_ONE)
+associationRelation(Intercambio, Usuario, ONE_TO_MANY)
+useRelation(Intercambio, Calificación, ONE_TO_ONE)
+useRelation(Calificación, Artículo, ONE_TO_ONE)
+compositionRelation(Artículo, Categoría, ONE_TO_TWO)
+compositionRelation(Artículo, Estado, ONE_TO_ONE)
+compositionRelation(Artículo, TipoArtículo, ONE_TO_ONE)
+inheritanceRelation(Artículo, ArtículoPropuesto, EMPTY)
+aggregationRelation(Publicación, ArtículoPropuesto, ZERO_TO_MANY)
+compositionRelation(Publicación, Artículo, ONE_TO_ONE)
+@enduml

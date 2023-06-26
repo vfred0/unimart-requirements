@@ -1,0 +1,39 @@
+@startuml profile-management 
+
+[*] --> GESTION_PERFIL
+
+state EDITAR_PEFIL {
+    state EPS1 as " "
+    state EPS2 as " "
+    state EPC1 <<choice>>
+
+    [*] --> EPS1
+
+    EPS1 --> EPS2
+    note on link
+        <b> El sistema permite editar: </b>        
+        * Foto de perfil
+        * Descripción
+        * Número de WhatsApp
+    end note
+    
+    EPS2 --> EPC1    
+
+    EPC1 -[#red]--> EPS1
+    note on link
+        <b> El sistema muestra error: </b>
+        * Foto de perfil está vacía
+        * Descripción está vacía 
+        * Número de WhatsApp no es válido
+    end note
+
+    EPC1 --> [*]    
+}
+
+GESTION_PERFIL --> EDITAR_PEFIL
+
+state union <<choice>>
+EDITAR_PEFIL --> union
+union --> [*]
+union --> GESTION_PERFIL
+@enduml

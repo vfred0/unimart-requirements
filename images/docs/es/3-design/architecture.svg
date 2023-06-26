@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="375px" preserveAspectRatio="none" style="width:555px;height:375px;background:#FFFFFF;" version="1.1" viewBox="0 0 555 375" width="555px" zoomAndPan="magnify"><defs/><g><!--MD5=[406b65fecc21e832f7a9b6ebadc6dce1]
+cluster Client--><g id="cluster_Client"><polygon fill="none" points="16,102,26,92,331,92,331,348.4,321,358.4,16,358.4,16,102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="321" x2="331" y1="102" y2="92"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="321" y1="102" y2="102"/><line style="stroke:#181818;stroke-width:1.0;" x1="321" x2="321" y1="102" y2="358.4"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="66" x="136.5" y="120.3999">«CLIENT»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="149.5" y="136.9059">Client</text></g><!--MD5=[979da56a7f83e2393dc758167ae295d0]
+cluster Server--><g id="cluster_Server"><polygon fill="none" points="355,16,365,6,538,6,538,338.95,528,348.95,355,348.95,355,16" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="528" x2="538" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:1.0;" x1="355" x2="528" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:1.0;" x1="528" x2="528" y1="16" y2="348.95"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="406.5" y="34.3999">«SERVER»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="421" y="50.9059">Server</text></g><!--MD5=[fac864e77539af95038f0151207ed802]
+cluster API--><g id="cluster_API"><polygon fill="#EDD33E" points="379,83,389,73,514,73,514,222.7,504,232.7,379,232.7,379,83" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="504" x2="514" y1="83" y2="73"/><line style="stroke:#181818;stroke-width:1.0;" x1="379" x2="504" y1="83" y2="83"/><line style="stroke:#181818;stroke-width:1.0;" x1="504" x2="504" y1="83" y2="232.7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="56" x="414.5" y="101.3999">«server»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="413" y="120.2999">«tomcat»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="431" y="136.8058">API</text></g><!--MD5=[4a65e84059005d12693a083370a06717]
+entity client--><g id="elem_client"><rect fill="#F1F1F1" height="65.6998" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="189" y="151"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="295" y="156"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="293" y="158"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="293" y="162"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="204" y="186.3999">«Executable»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="230.5" y="202.9059">client</text></g><!--MD5=[23555a4f9c8a267cdfd801ad53ceaf15]
+entity browser--><g id="elem_browser"><rect fill="#F1F1F1" height="46.7999" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="32" y="160.45"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="134" y="165.45"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="132" y="167.45"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="132" y="171.45"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="47" y="193.4559">web-broswer</text></g><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
+entity mobile--><g id="elem_mobile"><rect fill="#F1F1F1" height="65.6998" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82" x="211" y="276.7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="273" y="281.7"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="271" y="283.7"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="271" y="287.7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="39" x="227.5" y="312.0999">«apk»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="226" y="328.6059">mobile</text></g><!--MD5=[89112a84c8daddb34abf4f068893e892]
+entity PostgreSQL--><g id="elem_PostgreSQL"><rect fill="#F1F1F1" height="46.7999" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="375.5" y="286.15"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="472.5" y="291.15"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="470.5" y="293.15"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="470.5" y="297.15"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="390.5" y="319.1559">PostgreSQL</text></g><!--MD5=[5d6dbbd7e3ad527ac67d257ab33183fc]
+entity webApp--><g id="elem_webApp"><rect fill="#F1F1F1" height="65.6998" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="394.5" y="151"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="453.5" y="156"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="451.5" y="158"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="451.5" y="162"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="39" x="409.5" y="186.3999">«war»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="412" y="202.9059">flixxic</text></g><!--MD5=[f7c73998f5b0585f22a8e54db6bd712d]
+link browser to client--><g id="link_browser_client"><path d="M154.49,183.85 C158.95,183.85 163.42,183.85 167.88,183.85 " fill="none" id="browser-to-client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="167.77,176.85,187.77,183.85,167.77,190.85,167.77,176.85" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2bd6226e9df97863edab5aa6433144ef]
+reverse link client to mobile--><g id="link_client_mobile"><path d="M252,237.65 C252,250.88 252,264.67 252,276.53 " fill="none" id="client-backto-mobile" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="245,238.03,252,218.03,259,238.03,245,238.03" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[90ff0ba0b5dd777a87e7b46bdbfaa5d1]
+link client to webApp--><g id="link_client_webApp"><path d="M315.27,206.2 C341.55,210.54 367.83,208.71 394.12,200.71 " fill="none" id="client-webApp" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7ddb2d94511893d35d06d7cdb9e5ca05]
+link webApp to PostgreSQL--><g id="link_webApp_PostgreSQL"><path d="M434,217.03 C434,238.65 434,266.6 434,285.9 " fill="none" id="webApp-PostgreSQL" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[882f8a2edc83a59cb31ecfd7d75480fa]
+@startuml architecture
+
+node Client <<CLIENT>> {
+    component client as "client" <<Executable>>    
+    component browser as "web-broswer"    
+    component mobile as "mobile" <<apk>>    
+
+    client <|-left- browser
+    client <|- - mobile
+}
+
+node Server <<SERVER>> {
+    component PostgreSQL 
+
+    node API <<server>> <<tomcat>> #edd33e {
+        component webApp as "flixxic" <<war>>
+    }
+
+    client -right-  webApp
+    webApp - - PostgreSQL
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="782px" preserveAspectRatio="none" style="width:1722px;height:782px;background:#FFFFFF;" version="1.1" viewBox="0 0 1722 782" width="1722px" zoomAndPan="magnify"><defs/><g><!--MD5=[fd7366e9f96236d9aa60dcc04f2b83e5]
+class Content--><g id="elem_Content"><rect codeLine="6" fill="#F1F1F1" height="266.399" id="Content" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="191" x="447" y="7"/><ellipse cx="513.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M508.25,24.1563 C508.25,26.6563 510.3906,28.4688 513.3125,28.4688 C514.5469,28.4688 515.7188,28.1719 516.4688,27.6563 C517.0781,27.2344 517.4063,26.8125 517.4063,26.4063 C517.4063,25.9375 516.9844,25.5313 516.4844,25.5313 C516.25,25.5313 516.0313,25.6094 515.8281,25.8125 C515.3906,26.25 515.3906,26.25 515.2188,26.3438 C514.7656,26.5781 514.125,26.7188 513.3594,26.7188 C511.3594,26.7188 510.0781,25.7031 510.0781,24.125 L510.0781,23.0781 C510.0781,21.375 511.2969,20.1719 513,20.1719 C513.5781,20.1719 514.1563,20.3125 514.625,20.5625 C515.0938,20.8281 515.2656,21.0156 515.3281,21.375 C515.4531,22.0469 515.7031,22.2969 516.2344,22.2969 C516.5156,22.2969 516.7969,22.1563 516.9844,21.9375 C517.1094,21.7656 517.1563,21.5938 517.1563,21.1563 L517.1563,19.7969 C517.1563,19.375 517.1406,19.2344 517.0156,19.0625 C516.8438,18.8125 516.5625,18.6563 516.2344,18.6563 C515.9219,18.6563 515.7188,18.7656 515.5,19.0313 C514.3281,18.5313 513.8906,18.4219 512.9375,18.4219 C510.2656,18.4219 508.25,20.4375 508.25,23.0625 L508.25,24.1563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="533.75" y="27.606">Content</text><line style="stroke:#181818;stroke-width:0.5;" x1="448" x2="637" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="453" y="56.0059">String title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="453" y="72.8059">String name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="453" y="89.6058">Integer year</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="453" y="106.4057">String storyline</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="453" y="123.2057">List&lt;Genre&gt; genres</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="453" y="140.0056">List&lt;Actor&gt; actors</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="453" y="156.8055">String trailer</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="453" y="173.6054">String poster</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="453" y="190.4054">Double imdbRating</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="453" y="207.2053">Double usersOfFlixxicRating</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="453" y="224.0052">String duration</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="453" y="240.8051">Comment comment</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="453" y="257.6051">Review review</text><line style="stroke:#181818;stroke-width:0.5;" x1="448" x2="637" y1="265.399" y2="265.399"/></g><!--MD5=[dd6ce28cd78ac308772935dc050a9e14]
+class Serie--><g id="elem_Serie"><rect codeLine="23" fill="#F1F1F1" height="81.5999" id="Serie" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="123" y="442.8"/><ellipse cx="193.75" cy="458.8" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M188.75,459.9562 C188.75,462.4562 190.8906,464.2687 193.8125,464.2687 C195.0469,464.2687 196.2188,463.9719 196.9688,463.4562 C197.5781,463.0344 197.9063,462.6125 197.9063,462.2062 C197.9063,461.7375 197.4844,461.3312 196.9844,461.3312 C196.75,461.3312 196.5313,461.4094 196.3281,461.6125 C195.8906,462.05 195.8906,462.05 195.7188,462.1437 C195.2656,462.3781 194.625,462.5187 193.8594,462.5187 C191.8594,462.5187 190.5781,461.5031 190.5781,459.925 L190.5781,458.8781 C190.5781,457.175 191.7969,455.9719 193.5,455.9719 C194.0781,455.9719 194.6563,456.1125 195.125,456.3625 C195.5938,456.6281 195.7656,456.8156 195.8281,457.175 C195.9531,457.8469 196.2031,458.0969 196.7344,458.0969 C197.0156,458.0969 197.2969,457.9562 197.4844,457.7375 C197.6094,457.5656 197.6563,457.3937 197.6563,456.9562 L197.6563,455.5969 C197.6563,455.175 197.6406,455.0344 197.5156,454.8625 C197.3438,454.6125 197.0625,454.4562 196.7344,454.4562 C196.4219,454.4562 196.2188,454.5656 196,454.8312 C194.8281,454.3312 194.3906,454.2219 193.4375,454.2219 C190.7656,454.2219 188.75,456.2375 188.75,458.8625 L188.75,459.9562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="214.25" y="463.406">Serie</text><line style="stroke:#181818;stroke-width:0.5;" x1="124" x2="305" y1="474.8" y2="474.8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="129" y="491.8059">Integer numberOfEpisodes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="129" y="508.6059">List&lt;Season&gt; seasons</text><line style="stroke:#181818;stroke-width:0.5;" x1="124" x2="305" y1="516.3999" y2="516.3999"/></g><!--MD5=[2916714cae8f0462c1096d4fd55ce4c3]
+class Season--><g id="elem_Season"><rect codeLine="29" fill="#F1F1F1" height="81.5999" id="Season" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="7" y="693.8"/><ellipse cx="70.25" cy="709.8" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M65.25,710.9563 C65.25,713.4563 67.3906,715.2688 70.3125,715.2688 C71.5469,715.2688 72.7188,714.9719 73.4688,714.4563 C74.0781,714.0344 74.4063,713.6125 74.4063,713.2063 C74.4063,712.7375 73.9844,712.3313 73.4844,712.3313 C73.25,712.3313 73.0313,712.4094 72.8281,712.6125 C72.3906,713.05 72.3906,713.05 72.2188,713.1438 C71.7656,713.3781 71.125,713.5188 70.3594,713.5188 C68.3594,713.5188 67.0781,712.5031 67.0781,710.925 L67.0781,709.8781 C67.0781,708.175 68.2969,706.9719 70,706.9719 C70.5781,706.9719 71.1563,707.1125 71.625,707.3625 C72.0938,707.6281 72.2656,707.8156 72.3281,708.175 C72.4531,708.8469 72.7031,709.0969 73.2344,709.0969 C73.5156,709.0969 73.7969,708.9563 73.9844,708.7375 C74.1094,708.5656 74.1563,708.3938 74.1563,707.9563 L74.1563,706.5969 C74.1563,706.175 74.1406,706.0344 74.0156,705.8625 C73.8438,705.6125 73.5625,705.4563 73.2344,705.4563 C72.9219,705.4563 72.7188,705.5656 72.5,705.8313 C71.3281,705.3313 70.8906,705.2219 69.9375,705.2219 C67.2656,705.2219 65.25,707.2375 65.25,709.8625 L65.25,710.9563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="90.75" y="714.406">Season</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="189" y1="725.8" y2="725.8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="13" y="742.8059">Integer numberOfEpisodes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="13" y="759.6059">List&lt;Content&gt; episodes</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="189" y1="767.3999" y2="767.3999"/></g><!--MD5=[44201db48fb57df1a9c7f5b6b15426b0]
+class Actor--><g id="elem_Actor"><rect codeLine="34" fill="#F1F1F1" height="165.5995" id="Actor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="341.5" y="400.8"/><ellipse cx="397.75" cy="416.8" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M392.75,417.9562 C392.75,420.4562 394.8906,422.2687 397.8125,422.2687 C399.0469,422.2687 400.2188,421.9719 400.9688,421.4562 C401.5781,421.0344 401.9063,420.6125 401.9063,420.2062 C401.9063,419.7375 401.4844,419.3312 400.9844,419.3312 C400.75,419.3312 400.5313,419.4094 400.3281,419.6125 C399.8906,420.05 399.8906,420.05 399.7188,420.1437 C399.2656,420.3781 398.625,420.5187 397.8594,420.5187 C395.8594,420.5187 394.5781,419.5031 394.5781,417.925 L394.5781,416.8781 C394.5781,415.175 395.7969,413.9719 397.5,413.9719 C398.0781,413.9719 398.6563,414.1125 399.125,414.3625 C399.5938,414.6281 399.7656,414.8156 399.8281,415.175 C399.9531,415.8469 400.2031,416.0969 400.7344,416.0969 C401.0156,416.0969 401.2969,415.9562 401.4844,415.7375 C401.6094,415.5656 401.6563,415.3937 401.6563,414.9562 L401.6563,413.5969 C401.6563,413.175 401.6406,413.0344 401.5156,412.8625 C401.3438,412.6125 401.0625,412.4562 400.7344,412.4562 C400.4219,412.4562 400.2188,412.5656 400,412.8312 C398.8281,412.3312 398.3906,412.2219 397.4375,412.2219 C394.7656,412.2219 392.75,414.2375 392.75,416.8625 L392.75,417.9562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="418.25" y="421.406">Actor</text><line style="stroke:#181818;stroke-width:0.5;" x1="342.5" x2="494.5" y1="432.8" y2="432.8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="347.5" y="449.8059">String name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="347.5" y="466.6059">String photo</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="347.5" y="483.4058">Integer birthYear</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="347.5" y="500.2057">Double averageRating</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="347.5" y="517.0057">String about</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="347.5" y="533.8056">List&lt;String&gt; movies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="347.5" y="550.6055">List&lt;String&gt; series</text><line style="stroke:#181818;stroke-width:0.5;" x1="342.5" x2="494.5" y1="558.3995" y2="558.3995"/></g><!--MD5=[b582e6ce3c86f1934c1c2f1f310142ca]
+class Catalog--><g id="elem_Catalog"><rect codeLine="44" fill="#F1F1F1" height="131.9996" id="Catalog" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="1026" y="417.6"/><ellipse cx="1069.8" cy="433.6" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1064.8,434.7562 C1064.8,437.2562 1066.9406,439.0687 1069.8625,439.0687 C1071.0969,439.0687 1072.2688,438.7719 1073.0188,438.2562 C1073.6281,437.8344 1073.9563,437.4125 1073.9563,437.0062 C1073.9563,436.5375 1073.5344,436.1312 1073.0344,436.1312 C1072.8,436.1312 1072.5813,436.2094 1072.3781,436.4125 C1071.9406,436.85 1071.9406,436.85 1071.7688,436.9437 C1071.3156,437.1781 1070.675,437.3187 1069.9094,437.3187 C1067.9094,437.3187 1066.6281,436.3031 1066.6281,434.725 L1066.6281,433.6781 C1066.6281,431.975 1067.8469,430.7719 1069.55,430.7719 C1070.1281,430.7719 1070.7063,430.9125 1071.175,431.1625 C1071.6438,431.4281 1071.8156,431.6156 1071.8781,431.975 C1072.0031,432.6469 1072.2531,432.8969 1072.7844,432.8969 C1073.0656,432.8969 1073.3469,432.7562 1073.5344,432.5375 C1073.6594,432.3656 1073.7063,432.1937 1073.7063,431.7562 L1073.7063,430.3969 C1073.7063,429.975 1073.6906,429.8344 1073.5656,429.6625 C1073.3938,429.4125 1073.1125,429.2562 1072.7844,429.2562 C1072.4719,429.2562 1072.2688,429.3656 1072.05,429.6312 C1070.8781,429.1312 1070.4406,429.0219 1069.4875,429.0219 C1066.8156,429.0219 1064.8,431.0375 1064.8,433.6625 L1064.8,434.7562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1090.2" y="438.206">Catalog</text><line style="stroke:#181818;stroke-width:0.5;" x1="1027" x2="1170" y1="449.6" y2="449.6"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1032" y="466.6059">List&lt;String&gt; contents</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1032" y="483.4059">String contentType</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1032" y="500.2058">Genre genre</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1032" y="517.0057">Integer year</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1032" y="533.8057">Integer userRating</text><line style="stroke:#181818;stroke-width:0.5;" x1="1027" x2="1170" y1="541.5996" y2="541.5996"/></g><!--MD5=[1681db427d861294dc4bf59cd2c200d7]
+class Library--><g id="elem_Library"><rect codeLine="52" fill="#F1F1F1" height="81.5999" id="Library" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="1206.5" y="442.8"/><ellipse cx="1248.5" cy="458.8" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1243.5,459.9562 C1243.5,462.4562 1245.6406,464.2687 1248.5625,464.2687 C1249.7969,464.2687 1250.9688,463.9719 1251.7188,463.4562 C1252.3281,463.0344 1252.6563,462.6125 1252.6563,462.2062 C1252.6563,461.7375 1252.2344,461.3312 1251.7344,461.3312 C1251.5,461.3312 1251.2813,461.4094 1251.0781,461.6125 C1250.6406,462.05 1250.6406,462.05 1250.4688,462.1437 C1250.0156,462.3781 1249.375,462.5187 1248.6094,462.5187 C1246.6094,462.5187 1245.3281,461.5031 1245.3281,459.925 L1245.3281,458.8781 C1245.3281,457.175 1246.5469,455.9719 1248.25,455.9719 C1248.8281,455.9719 1249.4063,456.1125 1249.875,456.3625 C1250.3438,456.6281 1250.5156,456.8156 1250.5781,457.175 C1250.7031,457.8469 1250.9531,458.0969 1251.4844,458.0969 C1251.7656,458.0969 1252.0469,457.9562 1252.2344,457.7375 C1252.3594,457.5656 1252.4063,457.3937 1252.4063,456.9562 L1252.4063,455.5969 C1252.4063,455.175 1252.3906,455.0344 1252.2656,454.8625 C1252.0938,454.6125 1251.8125,454.4562 1251.4844,454.4562 C1251.1719,454.4562 1250.9688,454.5656 1250.75,454.8312 C1249.5781,454.3312 1249.1406,454.2219 1248.1875,454.2219 C1245.5156,454.2219 1243.5,456.2375 1243.5,458.8625 L1243.5,459.9562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1268.5" y="463.406">Library</text><line style="stroke:#181818;stroke-width:0.5;" x1="1207.5" x2="1341.5" y1="474.8" y2="474.8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1212.5" y="491.8059">List&lt;String&gt; movies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1212.5" y="508.6059">List&lt;String&gt; series</text><line style="stroke:#181818;stroke-width:0.5;" x1="1207.5" x2="1341.5" y1="516.3999" y2="516.3999"/></g><!--MD5=[d5a630d213adc2e3986060bd811a90b1]
+class Search--><g id="elem_Search"><rect codeLine="61" fill="#F1F1F1" height="81.5999" id="Search" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="1378" y="442.8"/><ellipse cx="1423.75" cy="458.8" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1418.75,459.9562 C1418.75,462.4562 1420.8906,464.2687 1423.8125,464.2687 C1425.0469,464.2687 1426.2188,463.9719 1426.9688,463.4562 C1427.5781,463.0344 1427.9063,462.6125 1427.9063,462.2062 C1427.9063,461.7375 1427.4844,461.3312 1426.9844,461.3312 C1426.75,461.3312 1426.5313,461.4094 1426.3281,461.6125 C1425.8906,462.05 1425.8906,462.05 1425.7188,462.1437 C1425.2656,462.3781 1424.625,462.5187 1423.8594,462.5187 C1421.8594,462.5187 1420.5781,461.5031 1420.5781,459.925 L1420.5781,458.8781 C1420.5781,457.175 1421.7969,455.9719 1423.5,455.9719 C1424.0781,455.9719 1424.6563,456.1125 1425.125,456.3625 C1425.5938,456.6281 1425.7656,456.8156 1425.8281,457.175 C1425.9531,457.8469 1426.2031,458.0969 1426.7344,458.0969 C1427.0156,458.0969 1427.2969,457.9562 1427.4844,457.7375 C1427.6094,457.5656 1427.6563,457.3937 1427.6563,456.9562 L1427.6563,455.5969 C1427.6563,455.175 1427.6406,455.0344 1427.5156,454.8625 C1427.3438,454.6125 1427.0625,454.4562 1426.7344,454.4562 C1426.4219,454.4562 1426.2188,454.5656 1426,454.8312 C1424.8281,454.3312 1424.3906,454.2219 1423.4375,454.2219 C1420.7656,454.2219 1418.75,456.2375 1418.75,458.8625 L1418.75,459.9562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="1444.25" y="463.406">Search</text><line style="stroke:#181818;stroke-width:0.5;" x1="1379" x2="1522" y1="474.8" y2="474.8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1384" y="491.8059">String titleOfSearch</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1384" y="508.6059">List&lt;String&gt; contents</text><line style="stroke:#181818;stroke-width:0.5;" x1="1379" x2="1522" y1="516.3999" y2="516.3999"/></g><!--MD5=[76b5e19c9337179d2d7ae334371d68c8]
+class Notification--><g id="elem_Notification"><rect codeLine="66" fill="#F1F1F1" height="98.3998" id="Notification" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="1558" y="434.4"/><ellipse cx="1597.75" cy="450.4" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1592.75,451.5563 C1592.75,454.0563 1594.8906,455.8688 1597.8125,455.8688 C1599.0469,455.8688 1600.2188,455.5719 1600.9688,455.0563 C1601.5781,454.6344 1601.9063,454.2125 1601.9063,453.8063 C1601.9063,453.3375 1601.4844,452.9313 1600.9844,452.9313 C1600.75,452.9313 1600.5313,453.0094 1600.3281,453.2125 C1599.8906,453.65 1599.8906,453.65 1599.7188,453.7438 C1599.2656,453.9781 1598.625,454.1188 1597.8594,454.1188 C1595.8594,454.1188 1594.5781,453.1031 1594.5781,451.525 L1594.5781,450.4781 C1594.5781,448.775 1595.7969,447.5719 1597.5,447.5719 C1598.0781,447.5719 1598.6563,447.7125 1599.125,447.9625 C1599.5938,448.2281 1599.7656,448.4156 1599.8281,448.775 C1599.9531,449.4469 1600.2031,449.6969 1600.7344,449.6969 C1601.0156,449.6969 1601.2969,449.5563 1601.4844,449.3375 C1601.6094,449.1656 1601.6563,448.9938 1601.6563,448.5563 L1601.6563,447.1969 C1601.6563,446.775 1601.6406,446.6344 1601.5156,446.4625 C1601.3438,446.2125 1601.0625,446.0563 1600.7344,446.0563 C1600.4219,446.0563 1600.2188,446.1656 1600,446.4313 C1598.8281,445.9313 1598.3906,445.8219 1597.4375,445.8219 C1594.7656,445.8219 1592.75,447.8375 1592.75,450.4625 L1592.75,451.5563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1617.25" y="455.006">Notification</text><line style="stroke:#181818;stroke-width:0.5;" x1="1559" x2="1714" y1="466.4" y2="466.4"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1564" y="483.4059">String title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1564" y="500.2059">Integer time</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1564" y="517.0058">List&lt;String&gt; comments</text><line style="stroke:#181818;stroke-width:0.5;" x1="1559" x2="1714" y1="524.7998" y2="524.7998"/></g><!--MD5=[a991fc8a4391bfe443769b1b44bf21dc]
+class CommentDetails--><g id="elem_CommentDetails"><rect codeLine="72" fill="#F1F1F1" height="115.1997" id="CommentDetails" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="137" x="732" y="82.6"/><ellipse cx="747" cy="98.6" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M742,99.7563 C742,102.2563 744.1406,104.0688 747.0625,104.0688 C748.2969,104.0688 749.4688,103.7719 750.2188,103.2563 C750.8281,102.8344 751.1563,102.4125 751.1563,102.0063 C751.1563,101.5375 750.7344,101.1313 750.2344,101.1313 C750,101.1313 749.7813,101.2094 749.5781,101.4125 C749.1406,101.85 749.1406,101.85 748.9688,101.9438 C748.5156,102.1781 747.875,102.3188 747.1094,102.3188 C745.1094,102.3188 743.8281,101.3031 743.8281,99.725 L743.8281,98.6781 C743.8281,96.975 745.0469,95.7719 746.75,95.7719 C747.3281,95.7719 747.9063,95.9125 748.375,96.1625 C748.8438,96.4281 749.0156,96.6156 749.0781,96.975 C749.2031,97.6469 749.4531,97.8969 749.9844,97.8969 C750.2656,97.8969 750.5469,97.7563 750.7344,97.5375 C750.8594,97.3656 750.9063,97.1938 750.9063,96.7563 L750.9063,95.3969 C750.9063,94.975 750.8906,94.8344 750.7656,94.6625 C750.5938,94.4125 750.3125,94.2563 749.9844,94.2563 C749.6719,94.2563 749.4688,94.3656 749.25,94.6313 C748.0781,94.1313 747.6406,94.0219 746.6875,94.0219 C744.0156,94.0219 742,96.0375 742,98.6625 L742,99.7563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="761" y="103.206">CommentDetails</text><line style="stroke:#181818;stroke-width:0.5;" x1="733" x2="868" y1="114.6" y2="114.6"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="738" y="131.6059">String title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="738" y="148.4059">String description</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="738" y="165.2058">String date</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="738" y="182.0057">String hour</text><line style="stroke:#181818;stroke-width:0.5;" x1="733" x2="868" y1="189.7997" y2="189.7997"/></g><!--MD5=[042fa140da40c49659127f611bcff931]
+class Comment--><g id="elem_Comment"><rect codeLine="79" fill="#F1F1F1" height="115.1997" id="Comment" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="172" x="818.5" y="426"/><ellipse cx="869.25" cy="442" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M864.25,443.1563 C864.25,445.6563 866.3906,447.4688 869.3125,447.4688 C870.5469,447.4688 871.7188,447.1719 872.4688,446.6563 C873.0781,446.2344 873.4063,445.8125 873.4063,445.4063 C873.4063,444.9375 872.9844,444.5313 872.4844,444.5313 C872.25,444.5313 872.0313,444.6094 871.8281,444.8125 C871.3906,445.25 871.3906,445.25 871.2188,445.3438 C870.7656,445.5781 870.125,445.7188 869.3594,445.7188 C867.3594,445.7188 866.0781,444.7031 866.0781,443.125 L866.0781,442.0781 C866.0781,440.375 867.2969,439.1719 869,439.1719 C869.5781,439.1719 870.1563,439.3125 870.625,439.5625 C871.0938,439.8281 871.2656,440.0156 871.3281,440.375 C871.4531,441.0469 871.7031,441.2969 872.2344,441.2969 C872.5156,441.2969 872.7969,441.1563 872.9844,440.9375 C873.1094,440.7656 873.1563,440.5938 873.1563,440.1563 L873.1563,438.7969 C873.1563,438.375 873.1406,438.2344 873.0156,438.0625 C872.8438,437.8125 872.5625,437.6563 872.2344,437.6563 C871.9219,437.6563 871.7188,437.7656 871.5,438.0313 C870.3281,437.5313 869.8906,437.4219 868.9375,437.4219 C866.2656,437.4219 864.25,439.4375 864.25,442.0625 L864.25,443.1563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="889.75" y="446.606">Comment</text><line style="stroke:#181818;stroke-width:0.5;" x1="819.5" x2="989.5" y1="458" y2="458"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="824.5" y="475.0059">Integer likes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="824.5" y="491.8059">Integer dislikes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="824.5" y="508.6058">Integer numberOfReplies</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="824.5" y="525.4057">List&lt;Comment&gt; replies</text><line style="stroke:#181818;stroke-width:0.5;" x1="819.5" x2="989.5" y1="533.1997" y2="533.1997"/></g><!--MD5=[eb0e8f8ddfdc21c3fdb48447501fec67]
+class Review--><g id="elem_Review"><rect codeLine="85" fill="#F1F1F1" height="64.7999" id="Review" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="687" y="451.2"/><ellipse cx="710.55" cy="467.2" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M705.55,468.3563 C705.55,470.8563 707.6906,472.6688 710.6125,472.6688 C711.8469,472.6688 713.0188,472.3719 713.7688,471.8563 C714.3781,471.4344 714.7063,471.0125 714.7063,470.6063 C714.7063,470.1375 714.2844,469.7313 713.7844,469.7313 C713.55,469.7313 713.3313,469.8094 713.1281,470.0125 C712.6906,470.45 712.6906,470.45 712.5188,470.5438 C712.0656,470.7781 711.425,470.9188 710.6594,470.9188 C708.6594,470.9188 707.3781,469.9031 707.3781,468.325 L707.3781,467.2781 C707.3781,465.575 708.5969,464.3719 710.3,464.3719 C710.8781,464.3719 711.4563,464.5125 711.925,464.7625 C712.3938,465.0281 712.5656,465.2156 712.6281,465.575 C712.7531,466.2469 713.0031,466.4969 713.5344,466.4969 C713.8156,466.4969 714.0969,466.3563 714.2844,466.1375 C714.4094,465.9656 714.4563,465.7938 714.4563,465.3563 L714.4563,463.9969 C714.4563,463.575 714.4406,463.4344 714.3156,463.2625 C714.1438,463.0125 713.8625,462.8563 713.5344,462.8563 C713.2219,462.8563 713.0188,462.9656 712.8,463.2313 C711.6281,462.7313 711.1906,462.6219 710.2375,462.6219 C707.5656,462.6219 705.55,464.6375 705.55,467.2625 L705.55,468.3563 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="726.45" y="471.806">Review</text><line style="stroke:#181818;stroke-width:0.5;" x1="688" x2="783" y1="483.2" y2="483.2"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="693" y="500.2059">Double rating</text><line style="stroke:#181818;stroke-width:0.5;" x1="688" x2="783" y1="507.9999" y2="507.9999"/></g><!--MD5=[f375b3d0fae4d15774812e930c824519]
+class Genre--><g id="elem_Genre"><rect codeLine="89" fill="#F1F1F1" height="266.399" id="Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="531" y="350.4"/><ellipse cx="568.05" cy="366.4" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M566.9094,367.4625 L568.2219,367.4625 L568.2219,367.5094 C568.2219,367.9156 568.2375,368.0719 568.3469,368.2281 C568.5188,368.4781 568.8156,368.65 569.1281,368.65 C569.4094,368.65 569.7063,368.5094 569.8781,368.2906 C570.0031,368.1031 570.05,367.9625 570.05,367.5094 L570.05,365.6656 C570.05,365.3375 570.0344,365.2281 569.9719,365.0563 C569.8625,364.7594 569.5031,364.5094 569.1281,364.5094 C568.8313,364.5094 568.5656,364.65 568.3938,364.8688 C568.2531,365.0563 568.2219,365.2281 568.2219,365.6656 L568.2219,365.7281 L566.9094,365.7281 L566.9094,363.5563 L570.7531,363.5563 L570.7531,364.3063 C570.7531,364.6969 570.7844,364.8844 570.8938,365.0406 C571.0656,365.2906 571.3625,365.4625 571.675,365.4625 C571.9719,365.4625 572.2375,365.3375 572.425,365.1031 C572.5656,364.9156 572.5969,364.775 572.5969,364.3063 L572.5969,361.8063 L564.8938,361.8063 C564.4406,361.8063 564.3156,361.8219 564.1438,361.9313 C563.8781,362.1031 563.7063,362.3688 563.7063,362.6813 C563.7063,362.9625 563.8313,363.2281 564.0813,363.4 C564.2688,363.525 564.4563,363.5563 564.8938,363.5563 L565.0813,363.5563 L565.0813,369.65 L564.8938,369.65 C564.4719,369.65 564.3156,369.6813 564.1438,369.775 C563.8781,369.9313 563.7063,370.2125 563.7063,370.5094 C563.7063,371.0875 564.1125,371.4 564.8938,371.4 L572.9719,371.4 L572.9719,368.8688 C572.9719,368.4625 572.9406,368.2906 572.8313,368.1344 C572.6594,367.8688 572.3781,367.7125 572.05,367.7125 C571.7688,367.7125 571.4875,367.8531 571.3,368.0719 C571.1594,368.2594 571.1281,368.4156 571.1281,368.8688 L571.1281,369.65 L566.9094,369.65 L566.9094,367.4625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="586.95" y="371.006">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="532" x2="651" y1="382.4" y2="382.4"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="537" y="399.4059">ACTION</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="537" y="416.2059">ADVENTURE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="537" y="433.0058">ANIMATION</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="537" y="449.8057">SCI_FI</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="537" y="466.6057">BIOGRAPHY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="537" y="483.4056">COMEDY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="537" y="500.2055">CRIME</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="537" y="517.0054">DOCUMENTARY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="537" y="533.8054">FAMILY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="537" y="550.6053">DRAMA</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="537" y="567.4052">FANTASY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="537" y="584.2051">MYSTERY</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="537" y="601.0051">THRILLER</text><line style="stroke:#181818;stroke-width:0.5;" x1="532" x2="651" y1="608.799" y2="608.799"/></g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><g id="elem_User"><rect codeLine="105" fill="#F1F1F1" height="131.9996" id="User" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="1128" y="74.2"/><ellipse cx="1167.75" cy="90.2" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1162.75,91.3562 C1162.75,93.8562 1164.8906,95.6687 1167.8125,95.6687 C1169.0469,95.6687 1170.2188,95.3719 1170.9688,94.8562 C1171.5781,94.4344 1171.9063,94.0125 1171.9063,93.6062 C1171.9063,93.1375 1171.4844,92.7312 1170.9844,92.7312 C1170.75,92.7312 1170.5313,92.8094 1170.3281,93.0125 C1169.8906,93.45 1169.8906,93.45 1169.7188,93.5437 C1169.2656,93.7781 1168.625,93.9187 1167.8594,93.9187 C1165.8594,93.9187 1164.5781,92.9031 1164.5781,91.325 L1164.5781,90.2781 C1164.5781,88.575 1165.7969,87.3719 1167.5,87.3719 C1168.0781,87.3719 1168.6563,87.5125 1169.125,87.7625 C1169.5938,88.0281 1169.7656,88.2156 1169.8281,88.575 C1169.9531,89.2469 1170.2031,89.4969 1170.7344,89.4969 C1171.0156,89.4969 1171.2969,89.3562 1171.4844,89.1375 C1171.6094,88.9656 1171.6563,88.7937 1171.6563,88.3562 L1171.6563,86.9969 C1171.6563,86.575 1171.6406,86.4344 1171.5156,86.2625 C1171.3438,86.0125 1171.0625,85.8562 1170.7344,85.8562 C1170.4219,85.8562 1170.2188,85.9656 1170,86.2312 C1168.8281,85.7312 1168.3906,85.6219 1167.4375,85.6219 C1164.7656,85.6219 1162.75,87.6375 1162.75,90.2625 L1162.75,91.3562 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="1187.25" y="94.806">User</text><line style="stroke:#181818;stroke-width:0.5;" x1="1129" x2="1244" y1="106.2" y2="106.2"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1134" y="123.2059">String name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1134" y="140.0059">String email</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1134" y="156.8058">String username</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1134" y="173.6057">String photo</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="1134" y="190.4057">String birthDate</text><line style="stroke:#181818;stroke-width:0.5;" x1="1129" x2="1244" y1="198.1996" y2="198.1996"/></g><!--MD5=[a3760420b842e483e25b1b7d15b7ed4a]
+link Content to Genre--><g id="link_Content_Genre"><path codeLine="113" d="M563.2107,286.5589 C563.2107,286.5589 568.17,320.08 570.51,336.34 " fill="none" id="Content-Genre" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="572.46,348.91,575.1441,339.4339,571.7514,343.9605,567.2248,340.5678,572.46,348.91" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="571.7514" x2="570.605" y1="343.9605" y2="336.045"/><polygon fill="#181818" points="561.51,274.68,558.4008,281.1863,563.2107,286.5589,566.32,280.0525,561.51,274.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[22b721f60cba56645bc37b190dddd458]
+link Content to Actor--><g id="link_Content_Actor"><path codeLine="114" d="M490.278,285.9571 C490.278,285.9571 464.4,356.24 453.07,387.43 " fill="none" id="Content-Actor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="448.31,399.52,455.1355,392.4199,450.0125,394.8188,447.6136,389.6958,448.31,399.52" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="450.0125" x2="452.75" y1="394.8188" y2="387.3"/><polygon fill="#181818" points="494.38,274.68,488.57,278.9512,490.278,285.9571,496.0881,281.6859,494.38,274.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[53f151fa8452c5b1d154e4cab5b25088]
+link Content to Comment--><g id="link_Content_Comment"><path codeLine="115" d="M648.8273,222.3064 C648.8273,222.3064 775.09,323.52 801.5,350.4 C820.78,370.02 839.86,393.17 856.26,414.58 " fill="none" id="Content-Comment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="864.59,424.58,862.3457,414.9903,861.5716,420.5939,855.9679,419.8198,864.59,424.58" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="861.5716" x2="856.745" y1="420.5939" y2="414.215"/><polygon fill="none" points="639.37,214.92,641.6365,221.7657,648.8273,222.3064,646.5608,215.4608,639.37,214.92" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="767.5" y="316.477">0..N</text></g><!--MD5=[883f87fdb5bffdd8201fc5591fcc64ab]
+link Content to Review--><g id="link_Content_Review"><path codeLine="116" d="M631.4329,285.1885 C631.4329,285.1885 657.85,329.29 669.5,350.4 C685.41,379.22 701.95,412.36 714.49,438.26 " fill="none" id="Content-Review" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="720.49,449.7,720.1879,439.8558,718.3201,445.1954,712.9805,443.3276,720.49,449.7" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="718.3201" x2="714.85" y1="445.1954" y2="437.985"/><polygon fill="none" points="625.29,274.88,624.9253,282.0819,631.4329,285.1885,631.7976,277.9866,625.29,274.88" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="651.5" y="316.477">0..N</text></g><!--MD5=[c21a427f2ddc7102a1c3d05d458f0b76]
+reverse link Content to Serie--><g id="link_Content_Serie"><path codeLine="117" d="M431.63,242.24 C396.2,275.8 357.41,313.92 323.5,350.4 C295.86,380.14 266.7,415.75 245.51,442.52 " fill="none" id="Content-backto-Serie" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="426.22,237.78,445.58,229.16,435.82,247.97,426.22,237.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac9bdd1f99234fdc4862877824516222]
+reverse link Content to Season--><g id="link_Content_Season"><path codeLine="118" d="M426.75,161.57 C322.94,186.58 176.39,240.12 105.5,350.4 C36.51,457.73 66.94,619.26 86.56,693.59 " fill="none" id="Content-backto-Season" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="424.85,154.59,445.91,156.94,427.98,168.24,424.85,154.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2dd21c5e4d24a00e804d12dd0c7b0d9f]
+link User to Comment--><g id="link_User_Comment"><path codeLine="120" d="M1129.73,206.61 C1094.44,247.59 1048.36,301.68 1008.5,350.4 C989.85,373.19 969.76,398.53 952.26,420.89 " fill="none" id="User-to-Comment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="948.56,424.61,957.2568,419.9877,951.6415,420.6725,950.9568,415.0572,948.56,424.61" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="1047.5" y="316.477">0..N</text></g><!--MD5=[6415063213547b35a52066d7b53eb916]
+link User to Review--><g id="link_User_Review"><path codeLine="121" d="M1127.71,160.14 C1045.25,189.3 894.78,252.3 800.5,350.4 C774.66,377.28 757.17,416.42 746.9,445.13 " fill="none" id="User-to-Review" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="744.95,449.73,751.7083,442.5658,746.6081,445.0129,744.161,439.9128,744.95,449.73" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="845.5" y="316.477">0..N</text></g><!--MD5=[493156291eaec71cfd96ba16f873c014]
+link User to Library--><g id="link_User_Library"><path codeLine="122" d="M1206.3541,219.2405 C1206.3541,219.2405 1246.22,372.87 1260.68,428.98 " fill="none" id="User-Library" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1264.16,441.5,1265.7905,431.7871,1262.9138,436.6578,1258.043,433.781,1264.16,441.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1262.9138" x2="1260.92" y1="436.6578" y2="428.915"/><polygon fill="none" points="1203.36,207.62,1200.9836,214.4283,1206.3541,219.2405,1208.7306,212.4322,1203.36,207.62" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="1231.5" y="316.477">0..1</text></g><!--MD5=[fd0ba0c8abe3007b2f74284014ab220d]
+link User to Catalog--><g id="link_User_Catalog"><path codeLine="123" d="M1169.64,206.62 C1154.53,265.24 1132.42,351.02 1116.86,411.35 " fill="none" id="User-to-Catalog" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1115.38,416.11,1121.513,408.4038,1116.6363,411.2704,1113.7697,406.3937,1115.38,416.11" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[74a3fdbd19e1c47cc229fca7940b5204]
+link User to Search--><g id="link_User_Search"><path codeLine="124" d="M1243.41,206.31 C1278.23,246.95 1323.12,300.79 1360.5,350.4 C1381.89,378.79 1404.4,411.85 1421.55,437.81 " fill="none" id="User-to-Search" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1424.69,441.57,1423.0644,431.8562,1421.933,437.3988,1416.3904,436.2674,1424.69,441.57" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2e2e530a658308b38e0151c4d25adf6b]
+link User to Notification--><g id="link_User_Notification"><path codeLine="125" d="M1245.2,166.7 C1319.6,200.97 1449.15,267.29 1540.5,350.4 C1565.58,373.22 1588.18,403.56 1605.13,429.42 " fill="none" id="User-to-Notification" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1608.23,433.19,1606.7045,423.46,1605.5161,428.9906,1599.9855,427.8022,1608.23,433.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88b9314d330548da52e101a75a12ece2]
+link Serie to Season--><g id="link_Serie_Season"><path codeLine="127" d="M190.6662,536.7592 C190.6662,536.7592 142.74,638.63 123.08,680.85 " fill="none" id="Serie-Season" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="117.24,692.38,124.6643,685.9085,119.3499,687.847,117.4114,682.5326,117.24,692.38" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="119.3499" x2="122.725" y1="687.847" y2="680.59"/><polygon fill="#181818" points="195.73,525.88,189.5717,529.6317,190.6662,536.7592,196.8245,533.0076,195.73,525.88" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="137.5" y="659.877">1..N</text></g><!--MD5=[a8ba9aa5dad9ae2f48a73ce4295f16ee]
+reverse link CommentDetails to Comment--><g id="link_CommentDetails_Comment"><path codeLine="132" d="M823.86,217.89 C843.06,280.92 869.84,368.81 887.17,425.71 " fill="none" id="CommentDetails-backto-Comment" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="816.92,220.13,817.79,198.96,830.31,216.05,816.92,220.13" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c725e291da2540c652b582f59049d969]
+reverse link CommentDetails to Review--><g id="link_CommentDetails_Review"><path codeLine="133" d="M783.74,218.37 C778.06,245.24 771.81,275.61 766.5,303.4 C756.66,354.88 746.54,414.95 740.65,450.82 " fill="none" id="CommentDetails-backto-Review" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="777.04,217.26,788.05,199.15,790.73,220.17,777.04,217.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[72c81948015c1a2659d6c89df2daae86]
+@startuml classes
+!define ZERO_TO_ONE 0..1
+!define ZERO_TO_MANY 0..N
+!define ONE_TO_ONE 1..1
+!define ONE_TO_MANY 1..N
+
+class Content {
+    String title    
+    String name    
+    Integer year 
+    ' Integer age
+    String storyline
+    List<Genre> genres
+    List<Actor> actors
+    String trailer
+    String poster
+    Double imdbRating
+    Double usersOfFlixxicRating
+    String duration     
+    Comment comment
+    Review review
+}
+
+class Serie {        
+    ' Integer numberOfSeasons
+    Integer numberOfEpisodes
+    List<Season> seasons
+}
+
+class Season {    
+    Integer numberOfEpisodes
+    List<Content> episodes
+}
+
+class Actor {
+    String name    
+    String photo
+    Integer birthYear
+    Double averageRating
+    String about
+    List<String> movies
+    List<String> series
+}
+
+class Catalog {
+    List<String> contents
+    String contentType
+    Genre genre
+    Integer year
+    Integer userRating
+}
+
+class Library {
+    List<String> movies
+    List<String> series
+}
+
+' class History {    
+'     List<String> contents    
+' }
+
+class Search {
+    String titleOfSearch
+    List<String> contents     
+}
+
+class Notification {
+    String title
+    Integer time
+    List<String> comments     
+}
+
+class CommentDetails {
+    String title
+    String description
+    String date
+    String hour        
+}
+
+class Comment {     
+    Integer likes
+    Integer dislikes    
+    Integer numberOfReplies
+    List<Comment> replies
+}
+class Review {        
+    Double rating    
+}
+
+enum Genre {
+    ACTION
+    ADVENTURE
+    ANIMATION
+    SCI_FI
+    BIOGRAPHY
+    COMEDY
+    CRIME
+    DOCUMENTARY
+    FAMILY
+    DRAMA
+    FANTASY                    
+    MYSTERY                
+    THRILLER    
+}
+
+class User {
+    String name
+    String email
+    String username    
+    String photo
+    String birthDate        
+}
+
+Content *- -> Genre
+Content *- -> Actor
+Content o- -> Comment: ZERO_TO_MANY
+Content o- -> Review: ZERO_TO_MANY
+Content <|- - Serie
+Content <|- - Season
+
+User - -> Comment: ZERO_TO_MANY
+User - -> Review: ZERO_TO_MANY
+User o- -> Library: ZERO_TO_ONE
+User ..> Catalog
+User ..> Search
+User ..> Notification
+
+Serie *- ->  Season: ONE_TO_MANY
+
+' Library <|- - History
+' Library ..> Content: ZERO_TO_MANY
+
+CommentDetails <|- - Comment
+CommentDetails <|- - Review
+
+' Notification - -> Comment
+' Notification - -> Review
+
+@enduml
+
+@startuml classes
+
+class Content {
+    String title    
+    String name    
+    Integer year 
+    String storyline
+    List<Genre> genres
+    List<Actor> actors
+    String trailer
+    String poster
+    Double imdbRating
+    Double usersOfFlixxicRating
+    String duration     
+    Comment comment
+    Review review
+}
+
+class Serie {        
+    Integer numberOfEpisodes
+    List<Season> seasons
+}
+
+class Season {    
+    Integer numberOfEpisodes
+    List<Content> episodes
+}
+
+class Actor {
+    String name    
+    String photo
+    Integer birthYear
+    Double averageRating
+    String about
+    List<String> movies
+    List<String> series
+}
+
+class Catalog {
+    List<String> contents
+    String contentType
+    Genre genre
+    Integer year
+    Integer userRating
+}
+
+class Library {
+    List<String> movies
+    List<String> series
+}
+
+
+class Search {
+    String titleOfSearch
+    List<String> contents     
+}
+
+class Notification {
+    String title
+    Integer time
+    List<String> comments     
+}
+
+class CommentDetails {
+    String title
+    String description
+    String date
+    String hour        
+}
+
+class Comment {     
+    Integer likes
+    Integer dislikes    
+    Integer numberOfReplies
+    List<Comment> replies
+}
+class Review {        
+    Double rating    
+}
+
+enum Genre {
+    ACTION
+    ADVENTURE
+    ANIMATION
+    SCI_FI
+    BIOGRAPHY
+    COMEDY
+    CRIME
+    DOCUMENTARY
+    FAMILY
+    DRAMA
+    FANTASY                    
+    MYSTERY                
+    THRILLER    
+}
+
+class User {
+    String name
+    String email
+    String username    
+    String photo
+    String birthDate        
+}
+
+Content *- -> Genre
+Content *- -> Actor
+Content o- -> Comment: 0..N
+Content o- -> Review: 0..N
+Content <|- - Serie
+Content <|- - Season
+
+User - -> Comment: 0..N
+User - -> Review: 0..N
+User o- -> Library: 0..1
+User ..> Catalog
+User ..> Search
+User ..> Notification
+
+Serie *- ->  Season: 1..N
+
+
+CommentDetails <|- - Comment
+CommentDetails <|- - Review
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 12:01:30 ECT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

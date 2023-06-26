@@ -1,0 +1,11 @@
+@startuml view-search-filter
+left to right direction
+actor Usuario
+
+rectangle "Ver, buscar y filtrar" {   
+    Usuario --> (Ver detalles del artículo)
+    Usuario --> (Buscar artículo por nombre)
+    Usuario --> (Filtrar por categoría)
+    Usuario --> (Filtrar por estado)
+}
+@enduml
