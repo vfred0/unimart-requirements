@@ -1,9 +1,0 @@
-@startuml ratings
-left to right direction
-actor User
-    rectangle "Ratings" {        
-        User -- (View ratings)
-        User -- (Add rating)
-        User -- (Filter ratings by score)
-    }
-@enduml

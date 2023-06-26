@@ -1,8 +1,0 @@
-@startuml publications
-left to right direction
-actor User
-    rectangle "Publications" {        
-        User -- (View articles published)
-        User -- (View articles proposed)        
-    }
-@enduml
