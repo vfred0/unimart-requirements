@@ -1,0 +1,93 @@
+@startuml spring
+skinparam linetype polyline
+package model_view_controller as "model view contoller"{
+
+boundary View #9FB7E5
+control Controller #C4E4AB
+entity Model
+
+Controller --> View
+Controller --> Model
+View --> Model
+
+}
+
+package spring_api_rest as "spring api rest" {
+
+control UsersControllerRest <<Controller>>
+control UserService  <<Controller>>
+control UserServiceImpl <<Controller>>
+boundary UserDTO <<View>>
+entity UserEntity <<Model>>
+control UsersControllerRest
+control UserRepository
+control UserMapper
+
+UsersControllerRest -down-> UserService
+UserService <|-down- UserServiceImpl
+UserServiceImpl -down-> UserRepository
+UserServiceImpl -down-> UserMapper
+
+UsersControllerRest .down.> UserDTO
+UserService .down.> UserDTO
+UserServiceImpl .down.> UserDTO
+UserServiceImpl .down.> UserEntity
+UserMapper .down.> UserDTO
+UserMapper .down.> UserEntity
+UserRepository .down.> UserEntity
+
+
+}
+
+model_view_controller .[#hidden]down. spring_api_rest
+
+Controller <.[#Gray]. UsersControllerRest :<<trace>>
+Controller <.[#Gray]. UserService :<<trace>>
+Controller <.[#Gray]. UserServiceImpl :<<trace>>
+View <.[#Gray]. UserDTO :<<trace>>
+Model <.[#Gray]. UserEntity :<<trace>>
+
+
+
+
+
+@enduml
+
+
+@startuml
+skinparam roundcorner 20
+skinparam Dpi 500
+actor Actor
+control UsersControllerRest <<Controller>>
+control UserServiceImpl <<Controller>>
+control UserMapper
+control UserRepository
+boundary UserDTO <<View>>
+entity UserEntity <<Model>>
+
+Actor -> UsersControllerRest : POST /users (body: userDto Json)
+UsersControllerRest -[#Gray]> UserDTO : <color:#Gray> get()
+UserDTO -[#Gray]-> UsersControllerRest
+UsersControllerRest -> UserServiceImpl : create(userDto)
+UserServiceImpl -> UserMapper : mapToEntity(userDto)
+UserMapper [#Gray]-> UserDTO : <color:#Gray> get()
+UserDTO -[#Gray]-> UserMapper
+UserMapper [#Gray]-> UserEntity : <color:#Gray> set()
+UserEntity -[#Gray]-> UserMapper
+UserMapper --> UserServiceImpl
+UserServiceImpl -> UserRepository : save(userEntity)
+UserRepository [#Gray]-> UserEntity : <color:#Gray> get()
+UserEntity -[#Gray]-> UserRepository
+UserRepository --> UserServiceImpl
+UserServiceImpl -> UserMapper : mapToDto(userEntity)
+UserMapper [#Gray]-> UserEntity : <color:#Gray> get()
+UserEntity -[#Gray]-> UserMapper
+UserMapper [#Gray]-> UserDTO : <color:#Gray> set()
+UserDTO -[#Gray]-> UserMapper
+UserMapper --> UserServiceImpl
+UserServiceImpl --> UsersControllerRest
+UsersControllerRest --> Actor : HTTP 200 (body: userDto Json)
+
+@enduml
+
+

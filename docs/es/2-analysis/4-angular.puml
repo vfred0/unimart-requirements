@@ -1,0 +1,18 @@
+@startuml angular
+skinparam roundcorner 20
+skinparam Dpi 500
+
+
+actor User
+control GETRoute
+boundary "Component" as View
+control "Service" as Controller
+entity Model
+
+User -[#Gray]-> GETRoute 
+GETRoute -[#Gray]-> View
+View -[#Gray]-> Controller : <color:#Gray> get/set()
+Controller -[#Gray]-> Model : <color:#Gray> get/set()
+View <- Controller : return Model/Result
+User <-- View : show
+@enduml
