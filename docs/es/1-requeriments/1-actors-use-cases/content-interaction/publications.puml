@@ -1,5 +1,7 @@
 @startuml publications
 left to right direction
+skinparam roundcorner 20
+skinparam Dpi 300
 actor Usuario
 rectangle "Publicaciones" {        
     Usuario --> (Mostrar artículos publicados)

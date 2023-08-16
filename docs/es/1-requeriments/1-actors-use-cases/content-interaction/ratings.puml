@@ -1,5 +1,7 @@
 @startuml ratings
 left to right direction
+skinparam roundcorner 20
+skinparam Dpi 300
 actor Usuario
 rectangle "Calificaciones" {        
     Usuario --> (Ver calificaciones)

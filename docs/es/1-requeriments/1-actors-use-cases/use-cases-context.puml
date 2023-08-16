@@ -1,19 +1,28 @@
 @startuml use-cases-context
+skinparam Dpi 1000
+skinparam linetype polyline
 
 [*] --> AUTENTICACION
 
 AUTENTICACION --> UNIMART_ABIERTO: Inciar Sesión
-UNIMART_ABIERTO -right-> INTERACCION_CONTENIDO
-UNIMART_ABIERTO -left-> GESTION_PERFIL
+UNIMART_ABIERTO --> INTERACCION_CONTENIDO
+UNIMART_ABIERTO --> GESTION_PERFIL
 
 INTERACCION_CONTENIDO --> INTERACCION_CONTENIDO
 note on link
   * Ver artículos
   * Publicar artículos
   * Buscar y filtrar artículos
-  * Proponer artículos
-  * Aceptar artículos
-  * Calificar artículos  
+  * Proponer artículos    
+end note
+
+UNIMART_ABIERTO --> INTERCAMBIOS
+
+INTERCAMBIOS --> INTERCAMBIOS
+note on link
+  * Ver intercambios
+  * Aceptar intercambios
+  * Descartar intercambios
 end note
 
 GESTION_PERFIL --> GESTION_PERFIL
@@ -25,6 +34,8 @@ state logout <<choice>>
 
 
 INTERACCION_CONTENIDO --> logout: Cerrar sesión
+INTERCAMBIOS --> logout: Cerrar sesión
+
 GESTION_PERFIL --> logout: Cerrar sesión
 
 UNIMART_ABIERTO --> logout: Cerrar sesión

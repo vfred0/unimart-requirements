@@ -1,0 +1,46 @@
+@startuml architecture-analysis
+
+package views {
+    boundary LoginView
+    boundary RegisterView        
+    boundary EditProfileView
+    boundary CommentView
+    boundary ReviewView
+    boundary ContentView        
+    boundary SearchAndFilterView
+    boundary WacthLaterView
+    boundary FavoriteView
+    boundary HistoryView
+    boundary NotificationView
+    boundary ContentManagementView    
+}
+package controllers {
+    control LoginController
+    control RegisterController        
+    control EditProfileController
+    control CommentController
+    control ReviewController
+    control ContentController    
+    control SearchAndFilterController
+    control WacthLaterController
+    control FavoriteController
+    control HistoryController
+    control NotificationController
+    control ContentManagementController    
+}
+
+package models {
+    entity User
+    entity Content
+    entity Movie
+    entity Serie
+    entity Comment
+    entity Review
+    entity Actor        
+}
+
+views ..> models
+views ..> controllers
+controllers ..> models
+
+@enduml

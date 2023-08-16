@@ -1,0 +1,139 @@
+@startuml classes
+!define ZERO_TO_ONE 0..1
+!define ZERO_TO_MANY 0..N
+!define ONE_TO_ONE 1..1
+!define ONE_TO_MANY 1..N
+
+class Content {
+    String title    
+    String name    
+    Integer year 
+    ' Integer age
+    String storyline
+    List<Genre> genres
+    List<Actor> actors
+    String trailer
+    String poster
+    Double imdbRating
+    Double usersOfFlixxicRating
+    String duration     
+    Comment comment
+    Review review
+}
+
+class Serie {        
+    ' Integer numberOfSeasons
+    Integer numberOfEpisodes
+    List<Season> seasons
+}
+
+class Season {    
+    Integer numberOfEpisodes
+    List<Content> episodes
+}
+
+class Actor {
+    String name    
+    String photo
+    Integer birthYear
+    Double averageRating
+    String about
+    List<String> movies
+    List<String> series
+}
+
+class Catalog {
+    List<String> contents
+    String contentType
+    Genre genre
+    Integer year
+    Integer userRating
+}
+
+class Library {
+    List<String> movies
+    List<String> series
+}
+
+' class History {    
+'     List<String> contents    
+' }
+
+class Search {
+    String titleOfSearch
+    List<String> contents     
+}
+
+class Notification {
+    String title
+    Integer time
+    List<String> comments     
+}
+
+class CommentDetails {
+    String title
+    String description
+    String date
+    String hour        
+}
+
+class Comment {     
+    Integer likes
+    Integer dislikes    
+    Integer numberOfReplies
+    List<Comment> replies
+}
+class Review {        
+    Double rating    
+}
+
+enum Genre {
+    ACTION
+    ADVENTURE
+    ANIMATION
+    SCI_FI
+    BIOGRAPHY
+    COMEDY
+    CRIME
+    DOCUMENTARY
+    FAMILY
+    DRAMA
+    FANTASY                    
+    MYSTERY                
+    THRILLER    
+}
+
+class User {
+    String name
+    String email
+    String username    
+    String photo
+    String birthDate        
+}
+
+Content *--> Genre
+Content *--> Actor
+Content o--> Comment: ZERO_TO_MANY
+Content o--> Review: ZERO_TO_MANY
+Content <|-- Serie
+Content <|-- Season
+
+User --> Comment: ZERO_TO_MANY
+User --> Review: ZERO_TO_MANY
+User o--> Library: ZERO_TO_ONE
+User ..> Catalog
+User ..> Search
+User ..> Notification
+
+Serie *-->  Season: ONE_TO_MANY
+
+' Library <|-- History
+' Library ..> Content: ZERO_TO_MANY
+
+CommentDetails <|-- Comment
+CommentDetails <|-- Review
+
+' Notification --> Comment
+' Notification --> Review
+
+@enduml

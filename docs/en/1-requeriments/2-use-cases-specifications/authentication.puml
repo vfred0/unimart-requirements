@@ -1,0 +1,47 @@
+@startuml AUTENTICACION
+state AUTENTICACION
+state LOGIN
+state OPENED_UNIMART
+
+[*] --> AUTENTICACION
+AUTENTICACION --> LOGIN
+note on link
+<b>User requests to</b>
+* Login
+end note
+
+state LOGIN {
+
+    state 1 as " "
+    state conditional <<choice>>
+    state 2 as " "
+
+    [*] --> 1
+
+    1 --> 2
+    note on link
+    <b>System requires</b>
+    * Username
+    * Password
+    end note
+
+    2 --> conditional
+    note on link
+    <b>User provides</b>
+    * Username
+    * Password
+    end note
+
+    conditional -[#red]-> 1
+    note on link
+    <b> Errors </b>
+    * Username does not exist
+    * Password is incorrect
+    end note              
+
+    conditional --> [*]
+}
+
+LOGIN --> OPENED_UNIMART
+OPENED_UNIMART --> [*]
+@enduml

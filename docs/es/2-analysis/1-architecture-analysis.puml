@@ -1,46 +1,32 @@
 @startuml architecture-analysis
 
-package views {
-    boundary LoginView
-    boundary RegisterView        
-    boundary EditProfileView
-    boundary CommentView
-    boundary ReviewView
-    boundary ContentView        
-    boundary SearchAndFilterView
-    boundary WacthLaterView
-    boundary FavoriteView
-    boundary HistoryView
-    boundary NotificationView
-    boundary ContentManagementView    
+package vistas {
+    boundary AutenticacionVista    
+    boundary EditarPerfilVista
+    boundary ArticuloVista
+    boundary PublicacionVista    
+    boundary CalificacionVista
+    boundary IntercambioVista    
 }
-package controllers {
-    control LoginController
-    control RegisterController        
-    control EditProfileController
-    control CommentController
-    control ReviewController
-    control ContentController    
-    control SearchAndFilterController
-    control WacthLaterController
-    control FavoriteController
-    control HistoryController
-    control NotificationController
-    control ContentManagementController    
+package controladores {
+    control AutenticacionControlador
+    control UsuarioControlador    
+    control ArticuloControlador    
+    control CalificacionControlador
+    control IntercambioControlador        
 }
+skinparam roundcorner 20
 
-package models {
-    entity User
-    entity Content
-    entity Movie
-    entity Serie
-    entity Comment
-    entity Review
-    entity Actor        
+package modelos {
+    entity Usuario
+    entity Articulo
+    entity Intercambio
+    entity Calificacion          
 }
+skinparam Dpi 500
 
-views ..> models
-views ..> controllers
-controllers ..> models
+vistas ..> modelos
+vistas ..> controladores
+controladores ..> modelos
 
 @enduml

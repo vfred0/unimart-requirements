@@ -1,4 +1,6 @@
 @startuml authentication
+skinparam linetype polyline
+skinparam Dpi 500
 state AUTENTICACION
 state INCIAR_SESION
 state UNIMART_ABIERTO

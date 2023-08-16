@@ -1,0 +1,45 @@
+@startuml use-cases-context
+
+[*] --> AUTHENTICATION
+
+AUTHENTICATION --> OPENED_UNIMART: Login
+OPENED_UNIMART -right-> CONTENT_INTERACTION
+OPENED_UNIMART -left-> PROFILE_MANAGEMENT
+
+CONTENT_INTERACTION --> CONTENT_INTERACTION
+note on link
+  * View articles    
+  * Publish articles
+  * Search and filter  
+end note
+
+OPENED_UNIMART --> EXCHANGE_ARTICLE
+
+EXCHANGE_ARTICLE --> EXCHANGE_ARTICLE
+note on link
+  * Accept prposeds articles
+  * Discard articles
+  * Rating articles  
+end note
+
+AUTHENTICATION --> AUTHENTICATION
+note on link
+  * Login  
+end note
+
+PROFILE_MANAGEMENT --> PROFILE_MANAGEMENT
+note on link
+  * Edit profile  
+end note
+
+state logout <<choice>>
+
+
+CONTENT_INTERACTION --> logout
+PROFILE_MANAGEMENT --> logout
+EXCHANGE_ARTICLE --> logout
+
+OPENED_UNIMART --> logout
+logout --> [*]: Logout
+logout -left-> OPENED_UNIMART: Login
+@enduml

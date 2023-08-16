@@ -1,19 +1,18 @@
 @startuml architecture
-
+skinparam Dpi 500
+skinparam roundcorner 20
 node Client <<CLIENT>> {
     component client as "client" <<Executable>>    
-    component browser as "web-broswer"    
-    component mobile as "mobile" <<apk>>    
+    component browser as "web-broswer"        
 
-    client <|-left- browser
-    client <|-- mobile
+    client <|-left- browser    
 }
 
 node Server <<SERVER>> {
     component PostgreSQL 
 
-    node API <<server>> <<tomcat>> #edd33e {
-        component webApp as "flixxic" <<war>>
+    node API <<server>> <<tomcat>> {
+        component webApp as "unimart" <<war>>
     }
 
     client -right-  webApp

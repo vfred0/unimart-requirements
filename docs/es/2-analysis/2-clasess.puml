@@ -1,6 +1,6 @@
-@startuml domain-model
+@startuml classes
+skinparam Dpi 500
 skinparam roundcorner 20
-' skinparam Dpi 500
 ' skinparam linetype ortho
 !define ZERO_TO_ONE 0..1
 !define ZERO_TO_MANY 0..N
@@ -19,7 +19,7 @@ skinparam roundcorner 20
 
 !define inheritanceRelation(child, parent, cardinality) child <|-- parent: cardinality
 
-enum Categoría {
+enum Categoria {
     + LIBROS_TEXTO_MATERIAL_EDUCATIVO
     + MATERIAL_DE_OFICINA
     + ELECTRÓNICA
@@ -39,25 +39,41 @@ enum Estado {
     + BAJA_CALIDAD
 }
 
-enum TipoArtículo {
+enum TipoArticulo {
     + PUBLICADO
     + PROPUESTO
     + INTERCAMBIADO
 }
 
-compositionRelation(Unimart, Usuario, ONE_TO_MANY)
-compositionRelation(Unimart, Artículo, ONE_TO_MANY)
-aggregationRelation(Usuario, Calificación,  ZERO_TO_MANY)
-aggregationRelation(Usuario, Artículo, ZERO_TO_MANY)
-aggregationRelation(Usuario, Publicación, ZERO_TO_MANY)
-aggregationRelation(Usuario, ArtículoPropuesto, ONE_TO_ONE)
-associationRelation(Intercambio, Usuario, ONE_TO_MANY)
-useRelation(Intercambio, Calificación, ONE_TO_ONE)
-useRelation(Calificación, Artículo, ONE_TO_ONE)
-compositionRelation(Artículo, Categoría, ONE_TO_TWO)
-compositionRelation(Artículo, Estado, ONE_TO_ONE)
-compositionRelation(Artículo, TipoArtículo, ONE_TO_ONE)
-inheritanceRelation(Artículo, ArtículoPropuesto, EMPTY)
-aggregationRelation(Publicación, ArtículoPropuesto, ZERO_TO_MANY)
-compositionRelation(Publicación, Artículo, ONE_TO_ONE)
+class Usuario {
+    - articulos: Articulo[]
+    - calificaciones: Calificacion[]
+}
+
+class Articulo {
+    - categoria: Categoria
+    - estado: Estado
+    - tipoArticulo: TipoArticulo    
+}
+
+class Calificacion {        
+    - puntuacion: short
+    - comentario: String
+}
+
+class Intercambio {
+    - nombreUsuario: String
+    - fotoUsuario: String
+    - articuloParaIntercambiar: String
+    - articuloParaRecibir: String
+    - fecha: string
+}
+
+aggregationRelation(Usuario, Articulo, ZERO_TO_MANY)
+compositionRelation(Articulo, Categoria, ONE_TO_ONE)
+compositionRelation(Articulo, Estado, ONE_TO_ONE)
+compositionRelation(Articulo, TipoArticulo, ONE_TO_ONE)
+aggregationRelation(Usuario, Calificacion, ZERO_TO_MANY)
+useRelation(Intercambio, Usuario, ONE_TO_ONE)
+useRelation(Intercambio, Articulo, ONE_TO_ONE)
 @enduml

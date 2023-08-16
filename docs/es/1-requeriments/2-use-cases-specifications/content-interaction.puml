@@ -1,6 +1,9 @@
 @startuml content-interaction
 [*] --> INTERACCION_CONTENIDO
 
+skinparam linetype polyline
+skinparam Dpi 500
+
 state FILTRAR_ARTICULOS {
     state FAS1 as " "    
     state FAS2 as " "
@@ -31,11 +34,14 @@ state VER_ARTICULO {
     state VAS2 as " "
     state VAS3 as " "
     state VAS4 as " "
+    state VAS5 as " "
+    state VAS6 as " "
     [*] --> VAS1
     VAS1 --> VAS2 
 
     state checkPublications <<choice>>           
     state addProposedOrNot <<choice>>
+    state addProposedOrAccepExchange <<choice>>
     note on link
         <b> El sistema muestra:</b>
         * Ver detalles del artículo
@@ -47,13 +53,19 @@ state VER_ARTICULO {
             * galería
             * proponer artículo
     end note
-    VAS2 --> addProposedOrNot
+        
+    VAS2 --> addProposedOrAccepExchange
     note on link
         <b> El sistema permite:</b>
         * Proponer artículo
+        * Aceptar intercambio
     end note
 
-    addProposedOrNot --> VAS3
+    addProposedOrAccepExchange --> VAS3
+    note on link
+        <b> El sistema permite:</b>
+        * Proponer artículo                    
+    end note
     
     VAS3 --> VAS4    
     note on link
@@ -68,17 +80,42 @@ state VER_ARTICULO {
         <b> El sistema requiere:</b>
         * Tener un artículo
          publicado para proponer
+        * No se puede proponer
+         un mismo artículo
     end note 
-    checkPublications --> [*]    
 
-    addProposedOrNot --> [*]
+
+    addProposedOrAccepExchange --> VAS5
+    note on link
+        <b> El sistema permite:</b>
+        * Aceptar intercambio
+    end note
+
+    VAS5 --> VAS6
+    note on link
+        <b> El sistema permite:</b>
+        * Aceptar intercambio
+        * Contactar por whatsapp
+    end note
+
+    VAS6 --> addProposedOrNot
+    addProposedOrNot -[#red]-> VAS5
+    note on link
+        <b> El sistema requiere:</b>
+        * No tener un intercambio 
+        aceptado para el mismo 
+        articulo
+    end note
+
+    addProposedOrNot --> [*]   
+    checkPublications --> [*]        
 }
 
 state INTERCAMBIAR_ARTICULO {
     state EAS1 as " "    
     state EAS2 as " "
     state EAS3 as " "    
-    state EAS4 as " "            
+    state EAS4 as " "                   
     [*] --> EAS1
     
     state ratingOrDiscard <<choice>>
@@ -112,8 +149,8 @@ state INTERCAMBIAR_ARTICULO {
 
 }
 
-INTERACCION_CONTENIDO --> FILTRAR_ARTICULOS
-INTERACCION_CONTENIDO --> BUSCAR_ARTICULO
+INTERACCION_CONTENIDO -right-> FILTRAR_ARTICULOS
+INTERACCION_CONTENIDO -left-> BUSCAR_ARTICULO
 INTERACCION_CONTENIDO --> INTERCAMBIAR_ARTICULO
 
 state union <<choice>> 
@@ -129,3 +166,7 @@ finished --> [*]
 finished --> INTERACCION_CONTENIDO
 
 @enduml
+
+' Describe este diagrama 'Diagrama de estados y actividad para la interacción con el contenido'
+
+Mediante este diagrama se puede observar la interacción del usuario con el contenido de la aplicación. El usuario puede filtrar artículos por categoría y estado, buscar artículos por título, ver detalles del artículo, proponer artículo, aceptar intercambio, contactar por whatsapp, calificar intercambio y descartar intercambio, asimismo, lo que el sistema muestra, permite y requiere.

@@ -1,0 +1,23 @@
+@startuml architecture
+
+node Client <<CLIENT>> {
+    component client as "client" <<Executable>>    
+    component browser as "web-broswer"    
+    component mobile as "mobile" <<apk>>    
+
+    client <|-left- browser
+    client <|-- mobile
+}
+
+node Server <<SERVER>> {
+    component PostgreSQL 
+
+    node API <<server>> <<tomcat>> #edd33e {
+        component webApp as "flixxic" <<war>>
+    }
+
+    client -right-  webApp
+    webApp -- PostgreSQL
+}
+
+@enduml

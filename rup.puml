@@ -1,0 +1,44 @@
+@startuml '4+1-views'
+
+skinparam default {    
+    FontSize 20
+    FontName courier
+    FontStyle normal    
+}
+skinparam shadowing false
+skinparam padding 1
+skinparam roundcorner 20
+skinparam linetype ortho
+skinparam arrow {
+    Thickness 2    
+    FontSize 20
+    FontName courier
+    FontStyle normal    
+}
+skinparam package {
+    BorderThickness 3        
+    FontSize 30
+    FontName courier
+    FontStyle bold
+}
+package  diseñoVista
+package  implementacionVista
+package  procesoVista
+package  despliegueVista
+package  casoUsoVista
+package  modeloDominio
+
+diseñoVista .down.> casoUsoVista
+implementacionVista .down.> casoUsoVista
+procesoVista .up.> casoUsoVista
+despliegueVista .up.> casoUsoVista
+
+implementacionVista .left.> diseñoVista
+despliegueVista .up.> implementacionVista
+procesoVista .up.> diseñoVista
+procesoVista .right.> despliegueVista
+
+casoUsoVista .down.> modeloDominio
+procesoVista .[hidden]down.> modeloDominio
+despliegueVista .[hidden]down.> modeloDominio
+@enduml

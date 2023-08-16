@@ -1,0 +1,172 @@
+
+@startuml bd
+skinparam roundcorner 20
+skinparam linetype ortho
+
+entity article_images {
+   article_id: uuid <<PK>>
+   --
+   images: varchar(60)
+}
+
+entity articles {
+   id: uuid <<PK>>
+   --
+   category: varchar(35)
+   date: timestamp(6)
+   description: varchar(250)
+   gender: varchar(10)
+   numbers_proposals: smallint
+   state: varchar(15)
+   title: varchar(60)
+   type_article: varchar(10)
+}
+
+entity exchanges {
+   id: uuid <<PK>>
+   proposed_article_id: uuid <<FK>>
+   receiver_rating_id: uuid <<FK>>
+   proposer_rating_id: uuid <<FK>>
+   --
+   date: timestamp(6)
+   is_made: boolean
+}
+
+entity proposed_articles {
+   id: uuid <<PK>>
+   article_id: uuid <<FK>> NOT NULL
+   proposed_article_id: uuid <<FK>> NOT NULL   
+}
+
+entity ratings {
+   id: uuid <<PK>>
+   user_id_who_was_rated: uuid <<FK>>
+   user_id_who_rated: uuid <<FK>>
+   --
+   score: smallint
+   comment: varchar(100)
+}
+
+entity users {
+   id: uuid <<PK>>
+   --
+   about: varchar(250)
+   name: varchar(50)
+   number_of_exchanges: smallint
+   number_whatsapp: varchar(10)
+   password: varchar(32)
+   photo: varchar(50)
+   rating: double precision
+   username: varchar(15)
+}
+
+article_images --|{ articles
+proposed_articles }|-- articles
+proposed_articles --|{ exchanges
+users -right-|{ ratings
+articles --|{ users
+exchanges }|-- ratings
+
+@enduml
+
+@startuml bd
+skinparam roundcorner 20
+skinparam linetype ortho
+skinparam Dpi 500
+
+   entity imagenes_articulos {
+      id_articulo: uuid <<PK>>
+      --
+      imagen: varchar(60)
+   }
+
+   entity articulos {
+      id: uuid <<PK>>
+      user_id: uuid <<FK>>
+      --
+      titulo: varchar(60)
+      descripcion: varchar(250)
+      categoria: categorias
+      estado: estados
+      genero: generos
+      tipo_articulo: tipo_articulos
+      fecha: timestamp(6)
+      numero_propuestas: smallint
+   }
+
+   entity intercambios {
+      id: uuid <<PK>>
+      id_propuesta: uuid <<FK>>
+      id_calificacion_receptor: uuid <<FK>>
+      id_calificacion_emisor: uuid <<FK>>
+      --
+      fecha: timestamp(6)
+      esta_realizado: boolean
+   }
+
+   entity propuestas {
+      id: uuid <<PK>>
+      id_articulo_recibidor: uuid <<FK>> NOT NULL
+      id_articulo_emisor: uuid <<FK>> NOT NULL   
+   }
+
+   entity calificaciones {
+      id: uuid <<PK>>
+      id_usuario_calificado: uuid <<FK>>
+      id_usuario_calificador: uuid <<FK>>
+      --
+      puntuacion: smallint
+      comentario: varchar(100)
+   }
+
+   entity usuarios {
+      id: uuid <<PK>>
+      --
+      descripcion: varchar(250)
+      nombre: varchar(50)
+      numero_intercambios: smallint
+      numero_whatsapp: varchar(10)
+      contraseña: varchar(32)
+      foto: varchar(50)
+      calificacion: double precision
+      nombre_usuario: varchar(15)
+   }
+
+   enum estados {
+      NUEVO
+      SEMI_NUEVO
+      USADO
+      BAJA_CALIDAD
+   }
+
+   enum tipo_articulos {
+      PUBLICADO
+      PROPUESTO
+      INTERCAMBIADO
+   }
+
+   enum categorias {
+      LIBROS_TEXTO_MATERIAL_EDUCATIVO
+      MATERIAL_DE_OFICINA
+      ELECTRONICA
+      MOBILIARIO_Y_DECORACION
+      INDUMENTARIA
+      MATERIAL_DE_LABORATORIO
+      INSTRUMENTOS_MUSICALES
+      ARTÍCULOS_DEPORTIVOS
+      ARTES_MANUALES
+      JUEGOS_JUGUETES
+   }
+
+
+   imagenes_articulos --|{ articulos
+   propuestas }|-left- articulos
+   propuestas --|{ intercambios
+   usuarios --|{ calificaciones
+   usuarios -up-|{ articulos
+   intercambios }|-- calificaciones
+
+   articulos ||-up-|| estados
+   articulos ||-up-|| tipo_articulos
+   articulos ||-left-|| categorias
+@enduml
